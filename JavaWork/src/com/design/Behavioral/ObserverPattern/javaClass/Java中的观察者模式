@@ -1,0 +1,3 @@
+使用方式
+
+    --> 被观察者实现继承Observable，观察者实现Observer接口

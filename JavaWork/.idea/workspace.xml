@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2a60bb8f-dfe8-4e4f-9cd5-871986a25008" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1221959558">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="25" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="2" />
+          <entry key="project.open.time.17" value="4" />
+          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.20" value="2" />
+          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.opened" value="31" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="Java中的观察者模式" value="1" />
+          <entry key="MF" value="1" />
+          <entry key="class" value="9" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="490" />
+          <entry key="jpg" value="2" />
+          <entry key="png" value="23" />
+          <entry key="txt" value="68" />
+          <entry key="享元模式" value="2" />
+          <entry key="代理模式" value="3" />
+          <entry key="外观模式" value="1" />
+          <entry key="对象适配器" value="3" />
+          <entry key="桥接模式" value="5" />
+          <entry key="模板方法模式" value="4" />
+          <entry key="策略模式" value="1" />
+          <entry key="类适配器" value="3" />
+          <entry key="组合模式" value="2" />
+          <entry key="缺省适配器模式" value="3" />
+          <entry key="行为型模式" value="4" />
+          <entry key="装饰者模式" value="3" />
+          <entry key="观察者模式" value="4" />
+          <entry key="迭代器模式" value="2" />
+          <entry key="适配器模式" value="6" />
+          <entry key="面向对象" value="1" />
+          <entry key="面向对象 - 七大原则" value="2" />
+          <entry key="面向对象 - 三大特性" value="1" />
+          <entry key="面向对象 - 类与类的关系" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="9" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="25" />
+          <entry key="JAVA" value="490" />
+          <entry key="Manifest" value="1" />
+          <entry key="PLAIN_TEXT" value="121" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="Java中的观察者模式" value="16" />
+          <entry key="class" value="4" />
+          <entry key="dummy" value="100" />
+          <entry key="java" value="10191" />
+          <entry key="txt" value="1899" />
+          <entry key="享元模式" value="108" />
+          <entry key="代理模式" value="181" />
+          <entry key="外观模式" value="56" />
+          <entry key="对象适配器" value="24" />
+          <entry key="桥接模式" value="120" />
+          <entry key="模板方法模式" value="162" />
+          <entry key="策略模式" value="53" />
+          <entry key="类适配器" value="24" />
+          <entry key="组合模式" value="182" />
+          <entry key="缺省适配器模式" value="115" />
+          <entry key="行为型模式" value="187" />
+          <entry key="装饰者模式" value="168" />
+          <entry key="观察者模式" value="106" />
+          <entry key="迭代器模式" value="93" />
+          <entry key="适配器模式" value="216" />
+          <entry key="面向对象" value="189" />
+          <entry key="面向对象 - 七大原则" value="108" />
+          <entry key="面向对象 - 三大特性" value="3" />
+          <entry key="面向对象 - 类与类的关系" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="10191" />
+          <entry key="PLAIN_TEXT" value="4114" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Amy</find>
+      <find>interfaceShow</find>
+      <find>interfaceShowf</find>
+      <find>AbatractMenu</find>
+      <find>getSjMoney</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/FlyWeight.java" />
+        <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/ConcreteFlyWeight.java" />
+        <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/FlyWeightFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/UserBean.java" />
+        <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/TestFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/DinnerFactory.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/Compute.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/ComputeAdd.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/ComputeSub.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/ComputeMultipy.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/ComputeDivide.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/Context.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/TestCompute.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/TestContext.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/StrategyPattern/策略模式" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Observer.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Waiter.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/WaiterTom.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Waiters.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Kkitchen.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Work.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/AssistWork.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/KitchenWork.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Cooker.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Assistant.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/flower/Insect.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/flower/Bee.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/flower/Plant.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/flower/Flowers.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/flower/TestFlowers.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/poll/TestPoll.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/poll/User.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/poll/Coder.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/poll/OfficialAccount.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/poll/CodeAccount.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/Watched.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/Watcher.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/TestObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/Java中的观察者模式" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/one/TestObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/two/CodeObserver.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/two/AccountObervable.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/two/AccountObservable.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/javaClass/two/Test.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/观察者模式" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/Food.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/Iterator.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/OrderList.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/TestMenu.java" />
+        <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/迭代器模式" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="445" />
+    <option name="y" value="27" />
+    <option name="width" value="672" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JavaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544163120896" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaWork\JavaWork\src\com\design" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\TempleteMethod" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Creational\SimpleFactory" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Creational\FactoryMethod" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Behavioral.StrategyPattern" />
+      <recent name="com.Structural.CompositePattern" />
+      <recent name="com.Creational.abstractFactory" />
+      <recent name="com.Creational.factory.factoryMethod" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\IteratorPattern" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\ObserverPattern" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\ObserverPattern\flower" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\StrategyPattern" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Structural\FacadePattern" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.TestMenu (1)">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Behavioral.ObserverPattern.javaClass.two.Test" />
+      <module name="JavaWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Behavioral.ObserverPattern.javaClass.two.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMenu (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.design.Behavioral.IteratorPattern.TestMenu" />
+      <module name="JavaWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.design.Behavioral.IteratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMenu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Behavioral.IteratorPattern.TestMenu" />
+      <module name="JavaWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Behavioral.IteratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Behavioral.ObserverPattern.javaClass.one.TestObserver" />
+      <module name="JavaWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Behavioral.ObserverPattern.javaClass.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPoll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Behavioral.ObserverPattern.poll.TestPoll" />
+      <module name="JavaWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Behavioral.ObserverPattern.poll.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.TestPoll" />
+      <item itemvalue="Application.TestObserver" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.TestMenu" />
+      <item itemvalue="Application.TestMenu (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TestMenu (1)" />
+        <item itemvalue="Application.TestMenu" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.TestObserver" />
+        <item itemvalue="Application.TestPoll" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2a60bb8f-dfe8-4e4f-9cd5-871986a25008" name="Default Changelist" comment="" />
+      <created>1534731186015</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534731186015</updated>
+      <workItem from="1534731187497" duration="6629000" />
+      <workItem from="1534755608393" duration="3747000" />
+      <workItem from="1534813872352" duration="2737000" />
+      <workItem from="1534817449581" duration="1634000" />
+      <workItem from="1534834975712" duration="5107000" />
+      <workItem from="1534842080569" duration="2572000" />
+      <workItem from="1534899379994" duration="25595000" />
+      <workItem from="1534986491416" duration="4765000" />
+      <workItem from="1535009253768" duration="8911000" />
+      <workItem from="1535072354535" duration="21547000" />
+      <workItem from="1535332982333" duration="5482000" />
+      <workItem from="1535354547957" duration="8266000" />
+      <workItem from="1535419351909" duration="18396000" />
+      <workItem from="1535504274216" duration="2487000" />
+      <workItem from="1535506823135" duration="20689000" />
+      <workItem from="1535639502020" duration="1157000" />
+      <workItem from="1536109810864" duration="10000" />
+      <workItem from="1536217891445" duration="1328000" />
+      <workItem from="1536739698681" duration="53000" />
+      <workItem from="1536821719417" duration="650000" />
+      <workItem from="1537844834432" duration="599000" />
+      <workItem from="1539138506345" duration="231000" />
+      <workItem from="1539139506931" duration="628000" />
+      <workItem from="1539140932009" duration="621000" />
+      <workItem from="1539572327885" duration="344000" />
+      <workItem from="1540373991433" duration="842000" />
+      <workItem from="1540775146751" duration="151000" />
+      <workItem from="1540866980039" duration="415000" />
+      <workItem from="1544162656518" duration="463000" />
+      <workItem from="1544164240831" duration="1091000" />
+      <workItem from="1544167336736" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="147217000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3419062" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.27813506" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.27941176" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161876" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.27941176" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.27941176" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/one/TestObserver.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/one/TestObserver.java</url>
+          <line>16</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/one/TestObserver.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Observable.java</url>
+          <line>80</line>
+          <properties class="java.util.Observable" method="addObserver">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Observable.java</url>
+          <line>172</line>
+          <properties class="java.util.Observable" method="setChanged">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Observable.java</url>
+          <line>113</line>
+          <properties class="java.util.Observable" method="notifyObservers">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Observable.java</url>
+          <line>131</line>
+          <properties class="java.util.Observable" method="notifyObservers">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Observable.java</url>
+          <line>62</line>
+          <properties field="changed" class="java.util.Observable" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/StrategyPattern/ComputeAdd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/StrategyPattern/Compute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Structural/FlyweightPattern/Dinner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Structural/FlyweightPattern/DinnerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/设计模式分类图.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Observer.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Waiters.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/KitchenWork.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Cooker.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/AssistWork.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Assistant.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/push/Insect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/push/Plant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/push/Flowers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="39" lean-forward="true" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/push/Bee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/push/TestFlowers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_111/javafx-src.zip!/javafx/beans/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="49" column="3" lean-forward="true" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/poll/Coder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/poll/OfficialAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/poll/TestPoll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/poll/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/poll/CodeAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/lang/Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="1335" selection-start-line="1335" selection-end-line="1335" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="3180" selection-start-line="3180" selection-end-line="3180" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="690" selection-start-line="690" selection-end-line="690" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Observable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="115" selection-start-line="115" selection-end-line="115" />
+          <folding>
+            <element signature="e#3747#3748#0" expanded="true" />
+            <element signature="e#5937#5938#0" expanded="true" />
+            <element signature="e#5967#5968#0" expanded="true" />
+            <element signature="e#6483#6484#0" expanded="true" />
+            <element signature="e#6514#6515#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/Java中的观察者模式">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/one/TestObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/one/Watched.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/one/Watcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/two/CodeObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/two/AccountObservable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/javaClass/two/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/观察者模式">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/IteratorPattern/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/IteratorPattern/Food.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/IteratorPattern/Iterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/IteratorPattern/OrderList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/IteratorPattern/迭代器模式">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Software/Java/jdk1.8.0_111/jre/lib/ext/access-bridge-64.jar!/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaWork.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Qrcode_swetake/com/swetake/util/Qrcode.class" />
+    <entry file="file://$USER_HOME$/Desktop/AssetYearManageAction.class" />
+    <entry file="file://$USER_HOME$/Desktop/AssertYearManageService.class" />
+    <entry file="file://D:/WorkSpaces/.metadata/.plugins/org.eclipse.wst.server.core/tmp2/wtpwebapps/shicpaOA/WEB-INF/classes/cn/com/cmjt/action/yearcheckno/YearChecknoAction.class" />
+    <entry file="file://$USER_HOME$/Desktop/YearChecknoAction.class" />
+    <entry file="file://$USER_HOME$/Desktop/BbAction.class" />
+    <entry file="file://$USER_HOME$/Desktop/SjService.class" />
+    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/IteratorPattern/TestMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
