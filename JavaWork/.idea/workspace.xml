@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a60bb8f-dfe8-4e4f-9cd5-871986a25008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/suan/one/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,36 +16,38 @@
     <session id="-1221959558">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="38" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="3" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.17" value="4" />
-          <entry key="project.open.time.18" value="4" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="4" />
+          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.17" value="7" />
+          <entry key="project.open.time.18" value="5" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.20" value="5" />
+          <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Java中的观察者模式" value="1" />
           <entry key="MF" value="1" />
-          <entry key="class" value="9" />
+          <entry key="class" value="14" />
           <entry key="iml" value="1" />
-          <entry key="java" value="490" />
-          <entry key="jpg" value="2" />
-          <entry key="png" value="23" />
+          <entry key="java" value="493" />
+          <entry key="jpg" value="3" />
+          <entry key="png" value="25" />
           <entry key="txt" value="68" />
           <entry key="享元模式" value="2" />
           <entry key="代理模式" value="3" />
@@ -62,19 +65,19 @@
           <entry key="迭代器模式" value="2" />
           <entry key="适配器模式" value="6" />
           <entry key="面向对象" value="1" />
-          <entry key="面向对象 - 七大原则" value="2" />
+          <entry key="面向对象 - 七大原则" value="3" />
           <entry key="面向对象 - 三大特性" value="1" />
           <entry key="面向对象 - 类与类的关系" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="9" />
+          <entry key="CLASS" value="14" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="Image" value="25" />
-          <entry key="JAVA" value="490" />
+          <entry key="Image" value="28" />
+          <entry key="JAVA" value="493" />
           <entry key="Manifest" value="1" />
-          <entry key="PLAIN_TEXT" value="121" />
+          <entry key="PLAIN_TEXT" value="122" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -82,7 +85,7 @@
           <entry key="Java中的观察者模式" value="16" />
           <entry key="class" value="4" />
           <entry key="dummy" value="100" />
-          <entry key="java" value="10191" />
+          <entry key="java" value="11049" />
           <entry key="txt" value="1899" />
           <entry key="享元模式" value="108" />
           <entry key="代理模式" value="181" />
@@ -108,14 +111,33 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="10191" />
+          <entry key="JAVA" value="11049" />
           <entry key="PLAIN_TEXT" value="4114" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/suan/one/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/SmartDictionaryFaster.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="846">
+              <caret line="50" column="57" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -133,6 +155,7 @@
       <find>interfaceShowf</find>
       <find>AbatractMenu</find>
       <find>getSjMoney</find>
+      <find>login</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,7 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/FlyWeight.java" />
         <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/ConcreteFlyWeight.java" />
         <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/FlyWeightFactory.java" />
         <option value="$PROJECT_DIR$/src/com/Structural/FlyweightPattern/simple/UserBean.java" />
@@ -193,6 +215,7 @@
         <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/OrderList.java" />
         <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/TestMenu.java" />
         <option value="$PROJECT_DIR$/src/com/Behavioral/IteratorPattern/迭代器模式" />
+        <option value="$PROJECT_DIR$/src/com/suan/one/Test.java" />
       </list>
     </option>
   </component>
@@ -215,6 +238,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,39 +246,61 @@
               <item name="JavaWork" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaWork" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JavaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="design" type="462c0819:PsiDirectoryNode" />
+              <item name="ObjectOriented" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaWork" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaWork" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="one" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544163120896" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548064306267" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaWork\JavaWork\src\com\design" />
-      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\TempleteMethod" />
-      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral" />
-      <recent name="D:\IdeaWork\JavaWork\src\com\Creational\SimpleFactory" />
-      <recent name="D:\IdeaWork\JavaWork\src\com\Creational\FactoryMethod" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.Behavioral.StrategyPattern" />
-      <recent name="com.Structural.CompositePattern" />
-      <recent name="com.Creational.abstractFactory" />
-      <recent name="com.Creational.factory.factoryMethod" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\IteratorPattern" />
@@ -262,6 +308,19 @@
       <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\ObserverPattern\flower" />
       <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\StrategyPattern" />
       <recent name="D:\IdeaWork\JavaWork\src\com\Structural\FacadePattern" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Behavioral.StrategyPattern" />
+      <recent name="com.Structural.CompositePattern" />
+      <recent name="com.Creational.abstractFactory" />
+      <recent name="com.Creational.factory.factoryMethod" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaWork\JavaWork\src\com\design" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral\TempleteMethod" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Behavioral" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Creational\SimpleFactory" />
+      <recent name="D:\IdeaWork\JavaWork\src\com\Creational\FactoryMethod" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -276,7 +335,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestMenu (1)">
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.suan.one.Test" />
+      <module name="JavaWork" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.suan.one.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Behavioral.ObserverPattern.javaClass.two.Test" />
       <module name="JavaWork" />
@@ -329,33 +401,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPoll" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.Behavioral.ObserverPattern.poll.TestPoll" />
-      <module name="JavaWork" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.Behavioral.ObserverPattern.poll.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.TestPoll" />
       <item itemvalue="Application.TestObserver" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.TestMenu" />
       <item itemvalue="Application.TestMenu (1)" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.TestMenu (1)" />
         <item itemvalue="Application.TestMenu" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.TestObserver" />
-        <item itemvalue="Application.TestPoll" />
       </list>
     </recent_temporary>
   </component>
@@ -400,11 +459,25 @@
       <workItem from="1544162656518" duration="463000" />
       <workItem from="1544164240831" duration="1091000" />
       <workItem from="1544167336736" duration="70000" />
+      <workItem from="1544511521465" duration="707000" />
+      <workItem from="1544768610158" duration="598000" />
+      <workItem from="1545219940682" duration="231000" />
+      <workItem from="1545643070789" duration="993000" />
+      <workItem from="1545983221348" duration="3000" />
+      <workItem from="1547027211306" duration="744000" />
+      <workItem from="1547084074696" duration="627000" />
+      <workItem from="1547430454816" duration="235000" />
+      <workItem from="1547517239826" duration="69000" />
+      <workItem from="1547795198097" duration="1916000" />
+      <workItem from="1548057434567" duration="599000" />
+      <workItem from="1548059049588" duration="4807000" />
+      <workItem from="1548380288955" duration="6000" />
+      <workItem from="1548383971075" duration="258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147217000" />
+    <option name="totallyTimeSpent" value="159010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -418,7 +491,37 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3419062" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3570348" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.27697262" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39774558" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.27858293" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3570348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -433,36 +536,6 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.27941176" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32843137" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161876" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.27941176" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32843137" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32843137" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50226927" side_tool="true" weight="0.27941176" />
@@ -547,49 +620,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/StrategyPattern/ComputeAdd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/StrategyPattern/Compute.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/Structural/FlyweightPattern/Dinner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="41" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/Structural/FlyweightPattern/DinnerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Software/Java/jdk1.8.0_111/src.zip!/java/util/Observer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/design/设计模式分类图.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Observer.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Waiters.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/KitchenWork.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Cooker.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/AssistWork.java" />
     <entry file="file://$PROJECT_DIR$/src/com/Behavioral/ObserverPattern/Assistant.java" />
     <entry file="file://$PROJECT_DIR$/src/com/design/Behavioral/ObserverPattern/push/Insect.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -822,6 +852,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/SystemAction.class" />
+    <entry file="file://$USER_HOME$/Desktop/Work/安徽/漏洞修复-2018-12-11~12/ahicpaOA/WEB-INF/classes/cn/com/cmjt/action/system/SystemAction.class" />
+    <entry file="file://$USER_HOME$/Desktop/ReadSysProperty.class" />
+    <entry file="file://$USER_HOME$/Desktop/AuditOfficeAction.class" />
+    <entry file="file://$PROJECT_DIR$/out/production/JavaWork/com/design/Structural/AdapterPattern/ClassAdapter/ClassTranslator.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/设计模式分类图.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/design.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/ObjectOriented/类关系图解.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/design/ObjectOriented/面向对象 - 七大原则">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/suan/one/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/SmartDictionaryFaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="50" column="57" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="57" />
         </state>
       </provider>
     </entry>
