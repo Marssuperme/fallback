@@ -1,0 +1,120 @@
+.add_top {
+	MARGIN-TOP: 11px
+}
+.gTip_Top {
+	MARGIN-TOP: 24px
+}
+.add_bottom {
+	MARGIN-BOTTOM: 0px
+}
+.add_suo {
+	MARGIN: 0px; WIDTH: 100px; FLOAT: right
+}
+BODY.add_right {
+	MARGIN-RIGHT: 0px
+}
+.add_14px {
+	FONT-SIZE: 14px
+}
+.add_sb_wp {
+	BORDER-BOTTOM: #ebebeb 1px solid; BORDER-LEFT: #ebebeb 1px solid; MARGIN-TOP: 11px; WIDTH: 98%; HEIGHT: 98%; BORDER-TOP: #ebebeb 1px solid; BORDER-RIGHT: #ebebeb 1px solid
+}
+.add_left2 {
+	BORDER-BOTTOM: #eee 1px solid; POSITION: relative; LINE-HEIGHT: 30px; WIDTH: auto; HEIGHT: 30px; FONT-SIZE: 12px; OVERFLOW: hidden; BORDER-TOP: medium none; FONT-WEIGHT: bold
+}
+.add_left2 SPAN {
+	POSITION: absolute; LINE-HEIGHT: 30px; HEIGHT: 30px; TOP: 0px; RIGHT: 6px
+}
+.add_left3 {
+	FONT-SIZE: 12px; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+.add_left4 {
+	LINE-HEIGHT: 30px; WIDTH: auto; HEIGHT: auto
+}
+.add_left5 {
+	TEXT-OVERFLOW: ellipsis; WHITE-SPACE: nowrap; OVERFLOW: hidden
+}
+A.add_left_b {
+	LINE-HEIGHT: 30px; WIDTH: 100%; DISPLAY: block; HEIGHT: 30px; COLOR: #000000; TEXT-DECORATION: none
+}
+.add_left_b:hover {
+	BACKGROUND-COLOR: #ffffe1; COLOR: #000000; FONT-WEIGHT: bold; TEXT-DECORATION: none
+}
+A.add_left_b:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.add_left_b:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.addindex_tab {
+	WIDTH: 100%; HEIGHT: 45px; FONT-SIZE: 12px
+}
+.addindex_th {
+	LINE-HEIGHT: 50px; HEIGHT: 50px; OVERFLOW: hidden
+}
+.Add_tab_L {
+	WIDTH: 100%; TABLE-LAYOUT: fixed; HEIGHT: 100%
+}
+TD.Add_tdL_L {
+	WIDTH: 300px; VERTICAL-ALIGN: top
+}
+TD.Add_tdR_L {
+	WIDTH: auto; VERTICAL-ALIGN: top
+}
+.gTable TH.add_addgroup1 {
+	TEXT-ALIGN: left; PADDING-LEFT: 0px; WIDTH: 80px; PADDING-RIGHT: 0px
+}
+.add_addgroup {
+	OVERFLOW-X: hidden; OVERFLOW-Y: auto; WIDTH: 480px; FLOAT: none; HEIGHT: 350px
+}
+.add_addgroup_txt {
+	COLOR: #999999
+}
+.add_icoCls {
+	LINE-HEIGHT: 12px; MARGIN-TOP: 4px; WIDTH: 12px; DISPLAY: block; BACKGROUND-POSITION: -74px -9px; FLOAT: left; HEIGHT: 12px; MARGIN-LEFT: 3px; MARGIN-RIGHT: 8px
+}
+.add_addgroup_OK {
+	MARGIN-TOP: 8px
+}
+.add_addgroup_OK_tab {
+	WIDTH: 85px; FLOAT: left
+}
+.add_allgroup_top {
+	MARGIN-TOP: 14px; MARGIN-BOTTOM: 0px
+}
+.add_allgroup_1 {
+	MARGIN-BOTTOM: 0px
+}
+.add_allgroup_top1 {
+	MARGIN-TOP: 8px
+}
+.add_allgroup_tab {
+	MARGIN: 0px; WIDTH: 100px; FLOAT: right
+}
+.add_allgroup_tab1 {
+	MARGIN: 0px; WIDTH: 65px; FLOAT: right
+}
+.add_allgroup_tab2 {
+	WIDTH: 660px
+}
+.add_contactgroup1 {
+	MARGIN-TOP: 14px; MARGIN-BOTTOM: 2px
+}
+.add_red {
+	COLOR: #e60012
+}
+.add_hui {
+	COLOR: #999999
+}
+.HrTop {
+	MARGIN-TOP: 12px
+}
+.add_print1 {
+	TEXT-ALIGN: center
+}
+.add_print2 {
+	WIDTH: 700px
+}
+.add_NewAddGp SPAN {
+	DISPLAY: block
+}

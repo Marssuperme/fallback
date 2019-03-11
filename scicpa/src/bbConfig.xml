@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<companyTable tableName="bb_companylist">
+		<column>person,phone</column>
+		<columnName>事务所联系人,联系电话</columnName>
+		<align>center,center</align>
+		<columnWidth>20,120</columnWidth>
+	</companyTable>
+	
+	<mainTable tableName="bb_content1">
+		<column>bb_content1.guid as guid,bb_content1.companyGUID as companyGUID,wtdwmc,bgwh,bsdwmc,ywyds,bbstate,bbbh,bbtime,ywarea,wtxmlx,khczlx,bgnd,fcbgfs,qmzs1,qmzs2,bsdwzczb,ysywf,ysywfed,sfrq,bgrq,kjskdfphd,zlry,sfsm</column>
+		<columnName>主表主键,事务所表主键,委 托 单 位,报告文号,被 审 (验) 单 位,业务约定书号码,报备状态,防伪编号,报 备 时 间,业务所在地,委托项目类型,客户出资类型,报表年度,发出报告份数,注师1,注师2,被审验单位注册资本,业务约定书收费金额,实收业务费,收 费 日 期,报 告 日 期,开具收款发票号码,助理人员,收费说明</columnName>
+		<align>center,center,center,center,center,center,center,center,center,center,center,center,center,center,center,center,right,right,right,center,center,center,center,center</align>
+		<columnWidth>2,10,20,180,140,180,140,110,120,150,20,20,20,60,60,80,80,20,20,20,20,20,70,20,120</columnWidth>
+	</mainTable>
+	
+	<tables>
+		<table typeId="yz001" tableName="BB_YZB">
+			<column>(yzbzje+yzswje+yztdsyje+yzqtwszcje+yzqtje) as totalmoney,yzzl,yzjzr,sjbgyjlx</column>
+			<columnName>验资总金额,验资种类,验资截止日,报告意见类型</columnName>
+			<align>right,center,center,center</align>
+			<columnWidth>20,20,20,140</columnWidth>
+		</table>
+		
+		<table typeId="sj001" tableName="BB_SJB">
+			<column>sjlx,zxsjmc,sjbgyjlx,xssr,yysr,zcze</column>
+			<columnName>审计类型,专项审计名称,报告意见类型,销售收入,营业收入,资产总额</columnName>
+			<align>center,center,center,right,right,right</align>
+			<columnWidth>20,40,140,10,10,10</columnWidth>
+		</table>
+		
+		<table typeId="whnj001" tableName="BB_WHNJB">
+			<column>whdjzh,whsrzj,whzczj,BB_WHNJB.bz</column>
+			<columnName>外汇登记证号,外汇收入总计,处汇支出总计,币种</columnName>
+			<align>center,center,center,center</align>
+			<columnWidth>20,10,10,10</columnWidth>
+		</table>
+		
+		<table typeId="sdshsqj001" tableName="BB_SDSHSQJB">
+			<column>sysl,slswjg,srze,bgyjlx</column>
+			<columnName>适用税率(%),受理税务机关,收入总额,报告意见类型</columnName>
+			<align>center,center,right,center</align>
+			<columnWidth>10,20,10,140</columnWidth>
+		</table>
+		
+		<table typeId="ccsssqkcjj001" tableName="BB_CCSSSQKCJJB">
+			<column>ccsslb,bgyjlx</column>
+			<columnName>财产损失类别,报告意见类型</columnName>
+			<align>center,center</align>
+			<columnWidth>20,140</columnWidth>
+		</table>
+		
+		<table typeId="qssh001" tableName="BB_QSSHB">
+			<column>qslx,qssd,xssr,bgyjlx</column>
+			<columnName>清算类型,清算所得,销售收入,报告意见类型</columnName>
+			<align>center,right,right,center</align>
+			<columnWidth>20,40,10,140</columnWidth>
+		</table>
+		
+		<table typeId="flsj001" tableName="BB_FLSJB">
+			<column>qssd,xssr,bgyjlx</column>
+			<columnName>分立所得,销售收入,报告意见类型</columnName>
+			<align>right,right,center</align>
+			<columnWidth>40,10,140</columnWidth>
+		</table>
+		
+		<table typeId="hbsj001" tableName="BB_HBSJB">
+			<column>qssd,xssr,bgyjlx</column>
+			<columnName>合并所得,销售收入,报告意见类型</columnName>
+			<align>right,right,center</align>
+			<columnWidth>40,10,140</columnWidth>
+		</table>
+		
+		<table typeId="qtssjj001" tableName="BB_QTSSJJB">
+			<column>srze,sysl,slsjg,slswjgmc,bgyjlx</column>
+			<columnName>收入总额,适用税率(%),受理税务机关,受理税务机关名称,报告意见类型</columnName>
+			<align>center,center,center,center,center</align>
+			<columnWidth>10,10,30,140,40</columnWidth>
+		</table>
+		
+		<table typeId="swdl001" tableName="BB_SWDLB">
+			<column>dlxm</column>
+			<columnName>代理项目</columnName>
+			<align>center</align>
+			<columnWidth>50</columnWidth>
+		</table>
+		
+		<table typeId="qchz001" tableName="BB_QCHZB">
+			<column>zcze,fzze,jzze,xssr</column>
+			<columnName>资产总额,负责总额,净增值额,销售收入</columnName>
+			<align>center,center,center,right</align>
+			<columnWidth>10,10,10,10</columnWidth>
+		</table>
+		
+		<table typeId="sfkjjd001" tableName="BB_SFKJJDB">
+			<column>xssr,jdjg</column>
+			<columnName>销售收入,鉴定结果</columnName>
+			<align>right,center</align>
+			<columnWidth>10,50</columnWidth>
+		</table>
+		
+		<table typeId="kjdsh001" tableName="BB_KJDSHB">
+			<column>pjjs</column>
+			<columnName>评价结果</columnName>
+			<align>center</align>
+			<columnWidth>50</columnWidth>
+		</table>
+		
+		<table typeId="kjzs001" tableName="BB_KJZSB">
+			<column>zsxm</column>
+			<columnName>咨询项目</columnName>
+			<align>center</align>
+			<columnWidth>50</columnWidth>
+		</table>
+		
+		<table typeId="bbqt001" tableName="BB_BBQTB">
+			<column>bustype,qtcbdxm</column>
+			<columnName>其它业务类型,其它承办的项目</columnName>
+			<align>center,center</align>
+			<columnWidth>40,50</columnWidth>
+		</table>
+		
+		<table typeId="zcpg001" tableName="BB_ZCPGB">
+			<column>pgmd,pgdx</column>
+			<columnName>评估目的,评估对象</columnName>
+			<align>center,center</align>
+			<columnWidth>50,40</columnWidth>
+		</table>
+		
+		<table typeId="dxzhpg001" tableName="BB_DXZHPG">
+			<column>ywlx,pgjzr,jzlx,pgmd,pgdx,pgfw</column>
+			<columnName>业务类型,评估基准日,价值类型,评估目的,评估对象,评估范围</columnName>
+			<align>center,center,center,center,center,center</align>
+			<columnWidth>40,50,40,40,40,50</columnWidth>
+		</table>
+		
+		<table typeId="qyjzpg001" tableName="BB_QYJZPG">
+			<column>ywlx,pgjzr,jzlx,pgmd,pgdx,pgfw</column>
+			<columnName>业务类型,评估基准日,价值类型,评估目的,评估对象,评估范围</columnName>
+			<align>center,center,center,center,center,center</align>
+			<columnWidth>40,50,40,40,40,50</columnWidth>
+		</table>
+		
+		<table typeId="jrblpg001" tableName="BB_JRZCPG">
+			<column>ywlx,bglx,hzzs,zqje</column>
+			<columnName>业务类型,报告形式,汇总户数,债权金额</columnName>
+			<align>center,center,center,center</align>
+			<columnWidth>40,50,40,40</columnWidth>
+		</table>
+		
+		<table typeId="qtzcpg001" tableName="BB_QTZCPG">
+			<column>ywlx,pgmd,pgdx,zypgffxz</column>
+			<columnName>业务类型,评估目的,评估对象,主要评估方法选择</columnName>
+			<align>center,center,center,center</align>
+			<columnWidth>40,50,40,40</columnWidth>
+		</table>
+	</tables>
+	
+</root>

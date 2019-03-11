@@ -1,0 +1,1115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+"http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>   
+	<bean id="DBConfigurer"
+     class="cn.org.gdicpa.web.pub.util.PropertyPlaceholderConfigurerEX">
+         <property name="locations">
+              <list>
+                   <value>classpath:proxool.properties</value>
+              </list>
+         </property>
+         <property name="secutiry">
+           <value>true</value><!-- true为进行解密。false则不解密 -->
+       </property>
+     </bean>
+	<bean id="dataSource" class="org.logicalcobwebs.proxool.ProxoolDataSource">
+	    <property name="driver">
+	        <value>${driver}</value>
+	    </property>
+	    <property name="driverUrl">
+	        <value>${driverUrl};user=${user};password=${password}</value>
+	    </property>
+	    <property name="user" >
+	    	<value>${user}</value>
+	    </property>
+	    <property name="password" >
+	    	 <value>${password}</value>
+	    </property>
+	    <property name="alias" value="sdsj" />
+	    <property name="houseKeepingSleepTime" value="90000" />
+	    <property name="prototypeCount" value="0" />
+	    <property name="maximumConnectionCount" value="100" />
+	    <property name="minimumConnectionCount" value="2" />
+	    <property name="simultaneousBuildThrottle" value="50" />
+	    <property name="maximumConnectionLifetime" value="14400000" />
+	    <property name="houseKeepingTestSql" value="select CURRENT_DATE" />
+	</bean>
+ 	<bean id="dbConnectPool" class="cn.org.gdicpa.web.pub.db.DBConnect">
+		<constructor-arg ref="dataSource"></constructor-arg>
+	</bean> 
+ 	<!-- <bean id="TMTDatabase" class="com.mt.db.TMTDatabase">
+		<constructor-arg ref="dataSource"></constructor-arg>
+	</bean>  -->
+	<!--  Error jsp mapping -->
+	<bean id="exceptionResolver"
+		class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+		<property name="defaultErrorView">
+			<value>failure</value>
+		</property>
+		<property name="exceptionMappings">
+			<props>
+				<prop key="java.lang.Exception">error.jsp</prop>
+				<prop key="defaultErrorView">error.jsp</prop>
+			</props>
+		</property>
+	</bean> 
+  
+	<!-- international property support -->
+	<bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename">
+			<value>messages</value>
+		</property>
+	</bean>
+
+	<!--Definition of View Resolver -->
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="viewClass">
+			<value>org.springframework.web.servlet.view.JstlView</value>
+		</property>
+	</bean>
+
+	<!--Request Mapping -->
+	<bean id="paraMethodResolver"
+		class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver">
+		<property name="paramName">
+			<value>method</value>
+		</property>
+		<property name="defaultMethodName">
+			<value>index</value>
+		</property>
+	</bean>
+
+	<!--Request Mapping -->
+	<bean id="urlMapping"
+		class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+		<property name="mappings">
+			<props>
+				<prop key="common/index.do">IndexAction</prop>
+				<prop key="common/login.do">LoginAction</prop>
+				<prop key="common/policy.do">PolicyAction</prop>
+				<prop key="common/case.do">CaseAction</prop>
+				<prop key="common/question.do">QuestionAction</prop>
+				<prop key="common/user.do">UserAction</prop>
+				<prop key="common/common.do">CommonAction</prop>
+				
+				<!-- 转所经历 -->
+				<prop key="common/officeRecord.do">OfficeRecordAction</prop>
+				
+				<!-- 转会经历 -->
+				<prop key="common/conferenceRecord.do">ConferenceRecordAction</prop>
+				
+				<!-- 个人信息变动经历 -->
+				<prop key="common/personInfoChange.do">PersonInfoChangeAction</prop>
+				
+				<!-- 培训经历 -->
+				<prop key="common/trainRecord.do">TrainRecordAction</prop>
+				
+				<!-- 相关事务所信息变动经历 -->
+				<prop key="common/officeInfoChange.do">OfficeInfoChangeAction</prop>
+				
+				<!-- 行业奖罚经历 -->
+				<prop key="common/tradePrizeRecord.do">TradePrizeRecordAction</prop>
+				
+				<!-- 投票 -->
+				<prop key="common/ticket.do">TicketAction</prop>
+				
+				<!-- 报告鉴证经历 -->
+				<prop key="common/reportValidate.do">ReportValidateAction</prop>	
+				
+				<prop key="cicpa/cicpa.do">CicpaAction</prop>
+						
+				<prop key="micfo/micfo.do">MicfoAction</prop>
+				
+				<prop key="micfono/micfono.do">MicfonoAction</prop>
+				
+				
+				<prop key="company/company.do">CompanyAction</prop>
+			
+				<prop key="director/director.do">DirectorAction</prop>
+				
+				<prop key="government/government.do">GovernmentAction</prop>
+				
+				<!-- 招聘 -->
+				<prop key="common/recruitment.do">RecruitmentAction</prop>
+				<!-- 实习 -->
+				<prop key="common/internship.do">InternshipAction</prop>
+				<!-- 上传进度 -->
+				<prop key="common/uploadProcess.do">UploadProcessAction</prop>
+				<!-- 公告通知 -->
+				<prop key="common/document.do">DocumentAction</prop>
+				
+				<!-- 培训信息 -->
+				<prop key="common/training.do">TrainingAction</prop> 
+				
+				<!-- 培训信息 -->
+				<prop key="common/training.do">TrainingAction</prop> 
+				
+				<!-- 在线投报 -->
+				<prop key="common/task.do">TaskAction</prop> 
+				<!-- 模板库 -->
+				<prop key="common/template.do">TemplateAction</prop>
+				
+				<!-- 在线举报 -->
+				<prop key="common/inform.do">InformAction</prop>
+				
+				<!-- 党建新闻 -->
+				<prop key="common/new.do">NewAction</prop> 
+				
+				<!-- 用户分数排名 -->
+				<prop key="common/grade.do">GradeAction</prop> 
+				
+				<!--在线课程 -->
+				<prop key="micfo/course.do">CourseAction</prop>
+				
+				<!--在线课程 -->
+				<prop key="micfono/course.do">CourseAction</prop>
+				
+				
+				<!--支付 -->
+				<prop key="common/pay.do">PayAction</prop>
+				
+				<!-- 在线提示 -->
+				<prop key="common/hint.do">SysHintAction</prop>
+				
+				<!-- 在线考试 -->
+				<prop key="common/exam.do">ExamAction</prop>
+				
+				
+				<!--报备 -->
+				<!--司法会计鉴定 -->
+				<prop key="common/sfkjjdb.do">SfkjjdbAction</prop>
+				
+				<!--验资 -->
+				<prop key="common/bbyzb.do">YzbAction</prop>
+				
+				<!--所得税汇算清缴 -->
+				<prop key="common/bbsdshsqjb.do">SdshsqjbAction</prop>
+				
+				<!--外汇年检 -->
+				<prop key="common/bbwhnj.do">WhnjAction</prop>
+				
+				<!--审计 -->
+				<prop key="common/bbsjb.do">SjAction</prop>
+
+				<!--其他涉税鉴证 -->
+				<prop key="common/bbqtssjjb.do">QtssjjbAction</prop>
+				
+				<!--财产损失税前扣除鉴证-->
+				<prop key="common/bbccsssqkcjjb.do">CcsssqkcjjbAction</prop>
+				
+				<!--清算审计-->
+				<prop key="common/bbqsshb.do">QsshbAction</prop>
+				
+				<!--税务代理-->
+				<prop key="common/bbswdlb.do">SwdlbAction</prop>
+				
+				<!--资产评估-->
+				<prop key="common/bbzcpgb.do">ZcpgbAction</prop>
+				
+				<!--清产核资-->
+				<prop key="common/bbqchzb.do">QchzbAction</prop>
+				
+				<!--会计电算化-->
+				<prop key="common/bbkjdshb.do">KjdshbAction</prop>
+				
+				<!--会计咨询-->
+				<prop key="common/bbkjzsb.do">KjzsbAction</prop>
+				
+				<!--报备其他-->
+				<prop key="common/bbbbqtb.do">BbqtbAction</prop>
+				
+				<!-- 会费填报 -->
+				<prop key="company/costpay.do">CostPayAction</prop>
+					
+				<!-- 自我任职资格预查 -->	
+				<prop key="common/inspection.do">InspectionAction</prop>		
+				
+				<!-- 业务分析统计 -->	
+				<prop key="common/content.do">ContentAction</prop>	
+				
+				<!-- 监管问题 -->	
+				<prop key="common/supervision.do">SupervisionAction</prop>	
+				
+				<!-- 检查人员通知 -->	
+				<prop key="common/testerNotice.do">TesterNoticeAction</prop>	
+				
+				<!-- 检查人员通知 -->	
+				<prop key="common/testerComposition.do">TesterCompositionAction</prop>	
+				
+				<!-- 监管工时费用报备管理 -->	
+				<prop key="common/hourCostManage.do">HourCostManageAction</prop>	
+				
+				<!-- 事务所执业质量结果评价 -->	
+				<prop key="common/checkGroupResult.do">CheckGroupResultAction</prop>
+					
+				<!-- 底稿 -->	
+				<prop key="common/lineup.do">LineupAction</prop>
+				
+				<!--报备 -->
+				<prop key="common/bb.do">BbAction</prop> 
+				
+				<!--社会责任填报 -->
+				<prop key="common/shzrtb.do">ShzrtbAction</prop> 
+				
+				<!--学时申报 -->
+				<prop key="common/addApplyTrainHour.do">addApplyTrainHourAction</prop> 
+				
+				<!-- 党组织 -->
+				<prop key="common/partyBranch.do">partyBranchAction</prop>
+				 
+				 
+				<!-- 党员织 -->
+				<prop key="common/party.do">partyAction</prop>
+				 
+				<prop key="common/book.do">bookAction</prop>
+				 
+				<prop key="common/micfoInfo.do">micfoInfo</prop>
+				
+				<prop key="assesser/assesser.do">assesserAction</prop>
+				
+				<prop key="common/assesserInfo.do">assesserInfo</prop>
+				 
+				<prop key="common/trainingHoldSelf.do">trainingHoldSelf</prop>
+				
+				<prop key="common/managemen.do">management</prop>
+				 
+				<prop key="common/noteInfo.do">noteInfo</prop>
+				
+				<!-- 团组职 -->
+				<prop key="common/memberBranch.do">memberBranchAction</prop>
+				
+				<!-- 团员 -->
+				<prop key="common/member.do">memberAction</prop>
+				
+				<!-- 工会 -->
+				<prop key="common/workerBranch.do">workerBranchAction</prop>
+				
+				<!-- 自办培训学时申报 -->
+				<prop key="common/applyHoldSelfHour.do">applyHoldSelfHourAction</prop>
+				
+				 
+				
+			     <!-- 豁免学时申报 -->
+				<prop key="common/contentExemption.do">ContentExemptionAction</prop>
+				
+				<!-- 非职业豁免学时申报 -->
+				<prop key="common/ContentExemptionNot.do">ContentExemptionNotAction</prop>
+				
+				
+				<!-- 其它学时申报 -->
+				<prop key="common/ApplyTrainHourElse.do">ApplyTrainHourElseAction</prop>
+				
+				<!-- 职业会员的其它学时申报 -->
+				<prop key="common/MicfoApplyTrainHour.do">MicfoApplyTrainHourAction</prop>
+				
+				<!-- 非执业入会 -->
+				<prop key="common/micfonoJoinParty.do">micfonoJoinPartyAction</prop>
+				<!-- 注师注册 -->
+				<prop key="common/micfoRegister.do">micfoRegisterAction</prop>
+				
+				<prop key="common/assesserRegister.do">assesserRegisterAction</prop>
+				
+				<prop key="common/certificateReceipt.do">certificateReceiptAction</prop>
+
+				<prop key="common/surveyItem.do">surveyItemAction</prop>
+				
+				<prop key="common/projectFill.do">projectFillAction</prop>
+				
+				<prop key="common/planManage.do">planManageAction</prop>
+				
+				<prop key="common/supTask.do">supTaskAction</prop>
+				
+				<prop key="common/scoreItem.do">scoreItemAction</prop>
+				
+				<!-- 统战 -->
+				<prop key="common/partyNo.do">partyNoAction</prop>
+				<!-- 岗位 -->
+				<prop key="common/staff.do">staffAction</prop>
+				<!-- 投稿 -->
+				<prop key="common/paper.do">paperAction</prop>
+				<!-- 座位号 -->
+				<prop key="common/seat.do">seatAction</prop>
+				
+				<!-- 填报年检表 -->
+				<prop key="common/nianjian.do">nianjianAction</prop>
+				
+				<!-- 继续教育 -->
+				<prop key="common/inAndExpTool.do">inAndExpTool</prop>
+				
+				<!-- 非执业年检 -->
+				<prop key="common/annualInspection.do">annualInspectionAction</prop>
+				
+				<!-- 非执业发票申请-->
+				<prop key="common/bill.do">billAction</prop>
+				
+				<!-- 非执业消息-->
+				<prop key="common/message.do">messageAction</prop>
+				
+			</props>  	
+		</property>
+
+	</bean>	
+	<!-- 学时导入 -->
+	<bean id="inportZIP"
+		class="cn.org.gdicpa.web.service.education.task.XsDataImportTask"/>
+	<!-- quartz scheduler -->
+	<bean id="sendSms"
+		class="cn.org.gdicpa.web.service.scheduler.SendSms" />
+
+	<bean id="jobdetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref local="sendSms" />
+		</property>
+		<property name="targetMethod">
+			<value>execute</value>
+		</property>
+	</bean>
+	
+	<bean id="jobdetailInportZIP"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref local="inportZIP" />
+		</property>
+		<property name="targetMethod">
+			<value>executeTask</value>
+		</property>
+	</bean>
+	
+	<bean id="cronTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="jobdetail" />
+		</property>
+		<property name="cronExpression">
+			<value>0 * * * * ? *</value>
+		</property>
+	</bean>
+	
+	<bean id="cronTriggerInportZIP"
+		class="org.springframework.scheduling.quartz.CronTriggerBean">
+		<property name="jobDetail">
+			<ref bean="jobdetailInportZIP" />
+		</property>
+		<property name="cronExpression">
+			<value>0 */1 * * * ?</value>
+		</property>
+	</bean>
+
+	<bean id="startQuertz"  lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<!--程序加载后是否自动启动-->
+		<property name="autoStartup">
+			<value>true</value>
+		</property>
+		<property name="triggers">
+			<list>
+				<!-- <ref bean="cronTriggerInportZIP"/> -->
+				<!-- 
+				<ref bean="cronTrigger" />
+				 -->
+			</list>
+		</property>
+	</bean>
+	
+	<!-- quartz scheduler -->
+
+	<!---Action Definition-->
+	
+	<bean id="CommonAction"
+		class="cn.org.gdicpa.web.action.common.CommonAction"> 
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="IndexAction"
+		class="cn.org.gdicpa.web.action.index.IndexAction"> 
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="LoginAction"
+		class="cn.org.gdicpa.web.action.login.LoginAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	 
+	<bean id="CicpaAction"
+		class="cn.org.gdicpa.web.action.cicpa.CicpaAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="MicfoAction"
+		class="cn.org.gdicpa.web.action.micfo.MicfoAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="MicfonoAction"
+		class="cn.org.gdicpa.web.action.micfono.MicfonoAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="PolicyAction"
+		class="cn.org.gdicpa.web.action.policy.PolicyAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="CaseAction"
+		class="cn.org.gdicpa.web.action.cases.CaseAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="QuestionAction"
+		class="cn.org.gdicpa.web.action.question.QuestionAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	
+	<bean id="CompanyAction"
+		class="cn.org.gdicpa.web.action.company.CompanyAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="DirectorAction"
+		class="cn.org.gdicpa.web.action.director.DirectorAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="GovernmentAction"
+		class="cn.org.gdicpa.web.action.government.GovernmentAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 转所经历 -->
+	<bean id="OfficeRecordAction"
+		class="cn.org.gdicpa.web.action.officeRecord.OfficeRecordAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 转会经历 -->
+	<bean id="ConferenceRecordAction"
+		class="cn.org.gdicpa.web.action.conferenceRecord.ConferenceRecordAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 培训经历 -->
+	<bean id="TrainRecordAction"
+		class="cn.org.gdicpa.web.action.trainRecord.TrainRecordAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 个人信息变动经历 -->
+	<bean id="PersonInfoChangeAction"
+		class="cn.org.gdicpa.web.action.personInfoChange.PersonInfoChangeAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 相关事务所信息变动经历 -->
+	<bean id="OfficeInfoChangeAction"
+		class="cn.org.gdicpa.web.action.officeInfoChange.OfficeInfoChangeAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 行业奖罚经历 -->
+	<bean id="TradePrizeRecordAction"
+		class="cn.org.gdicpa.web.action.tradePrizeRecord.TradePrizeRecordAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 投票 -->
+	<bean id="TicketAction"
+		class="cn.org.gdicpa.web.action.ticket.TicketAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 报告鉴证经历 -->
+	<bean id="ReportValidateAction"
+		class="cn.org.gdicpa.web.action.reportValidate.ReportValidateAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+		
+	<bean id="UserAction"
+		class="cn.org.gdicpa.web.action.user.UserAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="RecruitmentAction"
+		class="cn.org.gdicpa.web.action.posts.RecruitmentAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="InternshipAction"
+		class="cn.org.gdicpa.web.action.posts.InternshipAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 上传进度 -->
+	<bean id="UploadProcessAction"
+		class="cn.org.gdicpa.web.action.uploadProcess.UploadProcessAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="DocumentAction"
+		class="cn.org.gdicpa.web.action.document.DocumentAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="TrainingAction"
+		class="cn.org.gdicpa.web.action.training.TrainingAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="TaskAction"
+		class="cn.org.gdicpa.web.action.task.TaskAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="TemplateAction"
+		class="cn.org.gdicpa.web.action.template.TemplateAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="InformAction"
+		class="cn.org.gdicpa.web.action.inform.InformAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+
+	<bean id="NewAction"
+		class="cn.org.gdicpa.web.action.partynew.NewAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>	
+	
+	<bean id="GradeAction"
+		class="cn.org.gdicpa.web.action.grade.GradeAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="CourseAction"
+		class="cn.org.gdicpa.web.action.course.CourseAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+
+	<bean id="PayAction"
+		class="cn.org.gdicpa.web.action.pay.PayAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	
+	<bean id="SysHintAction"
+		class="cn.org.gdicpa.web.action.hint.SysHintAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="ExamAction"
+		class="cn.org.gdicpa.web.action.exam.ExamAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="SfkjjdbAction"
+		class="cn.org.gdicpa.web.action.sfkjjdb.SfkjjdbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="YzbAction"
+		class="cn.org.gdicpa.web.action.bbyzb.YzbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="SdshsqjbAction"
+		class="cn.org.gdicpa.web.action.bbsdshsqj.SdshsqjbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="WhnjAction"
+		class="cn.org.gdicpa.web.action.bbwhnj.WhnjbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="SjAction"
+		class="cn.org.gdicpa.web.action.bbsj.SjAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="QtssjjbAction"
+		class="cn.org.gdicpa.web.action.bbqtssjjb.QtssjjbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="CcsssqkcjjbAction"
+		class="cn.org.gdicpa.web.action.bbccsssqkcjjb.CcsssqkcjjbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="QsshbAction"
+		class="cn.org.gdicpa.web.action.bbqsshb.QsshbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="SwdlbAction"
+		class="cn.org.gdicpa.web.action.bbswdlb.SwdlbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="ZcpgbAction"
+		class="cn.org.gdicpa.web.action.bbzcpgb.ZcpgbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="QchzbAction"
+		class="cn.org.gdicpa.web.action.bbqchzb.QchzbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="KjdshbAction"
+		class="cn.org.gdicpa.web.action.bbkjdshb.KjdshbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="KjzsbAction"
+		class="cn.org.gdicpa.web.action.bbkjzsb.KjzsbAction">
+		<property name="methodNameResolver"> 
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="BbqtbAction"
+		class="cn.org.gdicpa.web.action.bbbbqtb.BbqtbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="CostPayAction"
+		class="cn.org.gdicpa.web.action.costpay.CostPayAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="InspectionAction"
+		class="cn.org.gdicpa.web.action.inspection.InspectionAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	
+	<bean id="ContentAction"
+		class="cn.org.gdicpa.web.action.content.ContentAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="SupervisionAction"
+		class="cn.org.gdicpa.web.action.supervision.SupervisionAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="TesterNoticeAction"
+		class="cn.org.gdicpa.web.action.testerNotice.TesterNoticeAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="TesterCompositionAction"
+		class="cn.org.gdicpa.web.action.testerComposition.TesterCompositionAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="HourCostManageAction"
+		class="cn.org.gdicpa.web.action.hourCostManage.HourCostManageAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="CheckGroupResultAction"
+		class="cn.org.gdicpa.web.action.checkGroupResult.CheckGroupResultAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="LineupAction"
+		class="cn.org.gdicpa.web.action.lineup.LineupAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="BbAction"
+		class="cn.org.gdicpa.web.action.bb.BbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="ShzrtbAction"
+		class="cn.org.gdicpa.web.action.shzrtb.ShzrtbAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="addApplyTrainHourAction"
+		class="cn.org.gdicpa.web.action.applyTrainHour.ApplyTrainHourAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="partyBranchAction"
+		class="cn.org.gdicpa.web.action.partyBranch.PartyBranchAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="partyAction"
+		class="cn.org.gdicpa.web.action.party.PartyAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	<!-- 团员组织 -->
+	<bean id="memberBranchAction"
+		class="cn.org.gdicpa.web.action.memberBranch.MemberBranchAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	<!-- 团员 -->
+	<bean id="memberAction"
+		class="cn.org.gdicpa.web.action.member.MemberAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	<!-- 工会 -->
+	<bean id="workerBranchAction"
+		class="cn.org.gdicpa.web.action.workerBranch.WorkerBranchAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="bookAction"
+		class="cn.org.gdicpa.web.action.book.BookAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="micfoInfo"
+		class="cn.org.gdicpa.web.action.micfoInfo.MicfoInfoAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="assesserAction"
+		class="cn.org.gdicpa.web.action.assesser.AssesserAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="assesserInfo"
+		class="cn.org.gdicpa.web.action.assesserInfo.AssesserInfoAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="trainingHoldSelf"
+		class="cn.org.gdicpa.web.action.trainingHoldSelf.TrainingHoldSelfAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="management"
+		class="cn.org.gdicpa.web.action.manaGement.ManaGementAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="noteInfo"
+		class="cn.org.gdicpa.web.action.noteInfo.NoteInfoAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="applyHoldSelfHourAction"
+		class="cn.org.gdicpa.web.action.applyHoldSelfHour.ApplyHoldSelfHourAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+ 
+	     
+     <!-- 豁免学时申报 -->
+	<bean id="ContentExemptionAction"
+	class="cn.org.gdicpa.web.action.contentExemption.ContentExemptionAction">
+	<property name="methodNameResolver">
+		<ref bean="paraMethodResolver" />
+	</property>
+	</bean>
+	
+     <!-- 非职业豁免学时申报 -->
+	<bean id="ContentExemptionNotAction"
+		class="cn.org.gdicpa.web.action.contentExemptionNot.ContentExemptionNotAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+     <!-- 其它学时申报 -->
+	<bean id="ApplyTrainHourElseAction"
+		class="cn.org.gdicpa.web.action.applyTrainHourElse.ApplyTrainHourElseAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	 <!-- 职业会员的其它学时申报 -->
+	<bean id="MicfoApplyTrainHourAction"
+		class="cn.org.gdicpa.web.action.micfoApplyTrainHour.MicfoApplyTrainHourAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+	    </property>
+	</bean>
+	
+	<bean id="micfonoJoinPartyAction"
+		class="cn.org.gdicpa.web.action.micfonoJoinParty.MicfonoJoinPartyAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="micfoRegisterAction"
+		class="cn.org.gdicpa.web.action.micfoRegister.MicfoRegisterAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="assesserRegisterAction"
+		class="cn.org.gdicpa.web.action.assesserRegister.AssesserRegisterAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="certificateReceiptAction"
+		class="cn.org.gdicpa.web.action.certificateReceipt.CertificateReceiptAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="surveyItemAction"
+		class="cn.org.gdicpa.web.action.surveyItem.SurveyItemAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="projectFillAction"
+		class="cn.org.gdicpa.web.action.projectFill.ProjectFillAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="planManageAction"
+		class="cn.org.gdicpa.web.action.planManage.PlanManageAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="supTaskAction"
+		class="cn.org.gdicpa.web.action.supTask.SupTaskAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="scoreItemAction"
+		class="cn.org.gdicpa.web.action.scoreItem.ScoreItemAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<bean id="partyNoAction"
+		class="cn.org.gdicpa.web.action.partyNo.PartyNoAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	<!-- 岗位 -->
+	<bean id="staffAction"
+		class="cn.org.gdicpa.web.action.Staff.StaffAction">
+		<property name="methodNameResolver"> 
+			<ref bean="paraMethodResolver"/> 
+		</property> 
+	</bean>
+	<!-- 投稿 -->
+	<bean id="paperAction"
+		class="cn.org.gdicpa.web.action.Paper.PaperAction" >
+		<property name="methodNameResolver"> 
+			<ref bean="paraMethodResolver"/> 
+		</property> 
+	</bean>
+	<bean id="seatAction"
+		class="cn.org.gdicpa.web.action.seat.SeatAction" >
+		<property name="methodNameResolver"> 
+			<ref bean="paraMethodResolver"/> 
+		</property> 
+	</bean>
+	
+	<!-- 填报年检表 -->
+	<bean id="nianjianAction"
+		class="cn.org.gdicpa.web.action.nianjian.NianjianAction" >
+		<property name="methodNameResolver"> 
+			<ref bean="paraMethodResolver"/> 
+		</property> 
+	</bean>
+	
+	<!-- 继续教育 -->
+	<bean id="inAndExpTool"
+		class="cn.org.gdicpa.web.service.education.InAndExpToolAction" >
+		<property name="methodNameResolver"> 
+			<ref bean="paraMethodResolver"/> 
+		</property> 
+	</bean>	
+	
+	<!-- 非执业年检-->
+	<bean id="annualInspectionAction"
+		class="cn.org.gdicpa.web.action.annualInspection.InspectionAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 非执业发票申请-->
+	<bean id="billAction"
+		class="cn.org.gdicpa.web.action.bill.BillAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+	
+	<!-- 非执业消息-->
+	<bean id="messageAction"
+		class="cn.org.gdicpa.web.action.message.MessageAction">
+		<property name="methodNameResolver">
+			<ref bean="paraMethodResolver" />
+		</property>
+	</bean>
+</beans>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              

@@ -1,0 +1,126 @@
+
+.info-area {
+	Z-INDEX: 100; MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 763px; COLOR: #92a4be; LINE-HEIGHT: 20px; ZOOM: 1; POSITION: relative; HEIGHT: 33px
+}
+.info-area .btn {
+	FLOAT: right
+}
+.info-area SPAN.show {
+	FLOAT: left; COLOR: #666; LINE-HEIGHT: 24px
+}
+EM.fred {
+	FONT: bold 12px/1.5em "verdana"; COLOR: #c00
+}
+.vote {
+	MARGIN: 0px auto; WIDTH: 763px
+}
+.vote H2 {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 38px; FONT-WEIGHT: normal; FONT-SIZE: 14px;PADDING-BOTTOM: 0px; LINE-HEIGHT: 34px; PADDING-TOP: 0px; HEIGHT: 34px
+}
+.vote-result {
+	PADDING-RIGHT: 1px; PADDING-LEFT: 1px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+.olist {
+	MARGIN: 0px auto; OVERFLOW: hidden; WIDTH: 761px; ZOOM: 1
+}
+
+LI.t-header {
+	FONT-WEIGHT: normal; FONT-SIZE: 14px; FLOAT: left; OVERFLOW: hidden; COLOR: #92a4be; LINE-HEIGHT: 30px; ZOOM: 1; HEIGHT: 30px; TEXT-ALIGN: center
+}
+LI.item {
+	CLEAR: both; BACKGROUND: url(../images/vote_cl_line.png) no-repeat center 100%; OVERFLOW: hidden; LINE-HEIGHT: 20px; ZOOM: 1
+}
+LI.item {
+	POSITION: relative
+}
+.olist LI DIV.d {
+	FLOAT: left
+}
+.d-tit {
+	WIDTH: 380px
+}
+.d-index {
+	WIDTH: 40px
+}
+.d-item {
+	WIDTH: 340px
+}
+#S_Cont_11 .d-tit {
+	WIDTH: 300px
+}
+#S_Cont_11 .d-item {
+	WIDTH: 260px
+}
+.d-prc {
+	WIDTH: 240px
+}
+.d-prc2 {
+	WIDTH: 70px
+}
+.d-num {
+	WIDTH: 84px
+}
+.d-from {
+	WIDTH: 72px
+}
+.d-flash {
+	WIDTH: 300px
+}
+#S_Cont_11 .d-flash {
+	WIDTH: 460px
+}
+LI.item .d {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 16px; PADDING-TOP: 15px
+}
+LI.item .d-tit {
+	
+}
+LI.item .d-prc {
+	PADDING-RIGHT: 5px; PADDING-LEFT: 5px; WIDTH: 215px; TEXT-ALIGN: right
+}
+LI.item .d-prc2 {
+	PADDING-RIGHT: 10px; WIDTH: 60px; TEXT-ALIGN: right
+}
+LI.item .d-num {
+	PADDING-RIGHT: 10px; FONT-SIZE: 14px; WIDTH: 74px; COLOR: #666; FONT-FAMILY: arial; TEXT-ALIGN: right
+}
+LI.item .d-from {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; HEIGHT: 54px
+}
+
+LI.item .d-from A:hover {
+	BACKGROUND-POSITION: -100px 0px
+}
+LI.item .selected A {
+	BACKGROUND-POSITION: -100px 0px
+}
+LI.last {
+	BACKGROUND: none transparent scroll repeat 0% 0%
+}
+.olist-s2 {
+	FLOAT: left; WIDTH: 460px
+}
+.flas-area {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 0px; FLOAT: right; PADDING-BOTTOM: 5px; PADDING-TOP: 10px
+}
+#S_Cont_11 .olist-s2 {
+	WIDTH: 300px
+}
+DIV.bar {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 1px; BACKGROUND: url(../images/vote_cl_bar.png) no-repeat; FLOAT: left; PADDING-BOTTOM: 0px; MARGIN: 3px 0px 0px; WIDTH: 152px; PADDING-TOP: 0px; HEIGHT: 16px
+}
+DIV.bar .precent {
+	FLOAT: left; OVERFLOW: hidden
+}
+DIV.bar .precent IMG {
+	DISPLAY: block
+}
+SPAN.precent-num {
+	FONT: 12px/1em "verdana","arial"
+}
+.olist SPAN.num {
+	DISPLAY: inline; BACKGROUND: url((../images/vote_cl_numbg.png) no-repeat; FLOAT: left; MARGIN: 3px 14px 0px 12px; WIDTH: 18px; LINE-HEIGHT: 17px; HEIGHT: 17px; TEXT-ALIGN: center
+}
+.olist SPAN.gd {
+	DISPLAY: block; FONT-SIZE: 14px; MARGIN-LEFT: 44px; TEXT-INDENT: -3px; LINE-HEIGHT: 23px
+}

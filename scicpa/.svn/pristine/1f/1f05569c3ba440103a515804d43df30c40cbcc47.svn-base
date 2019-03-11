@@ -1,0 +1,31 @@
+.payStep li{
+	display: block;
+	float: left;
+	width: 200px;
+	height: 24px;
+	padding-top: 2px;
+	text-align:center;
+	font-size: 14px;
+	
+	border-left: 1px solid #5ebd3b;
+	border-bottom: 1px solid #5ebd3b;
+	border-top: 1px solid #5ebd3b;
+}
+
+.payStep {
+	margin: 0px;
+}
+
+.curr{
+	background-color: #5ebd3b !important;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.complete {
+	background-color: #eff7e2 !important;
+}
+
+.last {
+	border-right: 1px solid #5ebd3b;
+}

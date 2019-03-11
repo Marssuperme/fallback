@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<companyTable tableName="bb_companylist">
+		<column>Guid,Loginid,CompanyName,area,LanguageSelectName,Person,Phone,Faxes,Post,Address,Email,Url</column>
+		<columnName>主键,事务所编号,事务所名称,地区,LanguageSelectName,事务所联系人,联系电话,传真,邮编,地址,Email,网址</columnName>
+		<columnValue>?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+		<columnStartIndex>0</columnStartIndex>
+		<columnEndIndex>6</columnEndIndex>
+	</companyTable>
+	
+	<mainTable tableName="bb_content1">
+		<column>companyguid,guid,bbbh,typeid,bbperson,bbstate,bbtime,linkman,linkphone,pattern,wtdwmc,bsdwmc,khczlx,khjjxj,kmhylx,sfssqy,yyzzhm,zcdz,zczbbz,bsdwzczb,fzrmc,xmkhlx,lxrxm,lxrdh,wtxmlx,ywyds,qyrq,bgwh,xmmc,bgrq,bgnd,fcbgfs,qmzs1,qmzs2,qmzs3,qmzs4,qmzs5,qmzs6,zlry,ywarea,sfyj,ysywf,ysywfed,kjskdfphd,kjskdfphd2,sfrq,sfsm,leaveword,sfbz,qtcyzs</column>
+		<columnName>事务所表主键,主表主键,防伪编号,类型编号,报备事务所编号,报备状态,报 备 时 间,联系人,联系电话,所属模式,委 托 单 位,被 审 (验) 单 位,客户出资类型,客户经济性质,客户行业类型,是否上市企业,营业执照号码或核准通知书号,注册地址,被（审）验单位注册资本/开办资金币种,被（审）验单位注册资本/开办资金（万元）,负责人姓名,项目客户类型,联系人姓名,联系人电话,委托项目类型,业务约定书号码,签约日期(格式：YYYY-DD-mm),报告文号,项目名称,报告日期(格式：YYYY-DD-mm),报告年度,发出报告份数,签名注师一,签名注师二,签名注师三,签名注师四,签名注师五,签名注师六,助理人员,业务所在地,收费依据,业务约定书收费（元）,实收业务费（元）,开具收款发票号码,开具收款发票号码2,收费日期(格式：YYYY-MM-dd),收费说明,留给后任注册会计师的话,计费方式,其他参与注师</columnName>		
+		<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+		<columnStartIndex>7</columnStartIndex>
+		<columnEndIndex>46</columnEndIndex>
+	</mainTable>
+	
+	<mainTable2 tableName="bb_content1">
+		<column>companyguid,guid,bbbh,typeid,bbperson,bbstate,bbtime,linkman,linkphone,pattern,wtdwmc,bsdwmc,khczlx,khjjxj,kmhylx,sfssqy,yyzzhm,zcdz,zczbbz,bsdwzczb,fzrmc,xmkhlx,lxrxm,lxrdh,wtxmlx,ywyds,qyrq,bgwh,xmmc,bgrq,bgnd,fcbgfs,qmzyszl,qmzs1,qmzs2,qmzs3,qmzs4,qmzs5,qmzs6,zlry,ywarea,sfyj,ysywf,ysywfed,kjskdfphd,kjskdfphd2,sfrq,sfsm,leaveword</column>
+		<columnName>事务所表主键,主表主键,防伪编号,类型编号,报备事务所编号,报备状态,报 备 时 间,联系人,联系电话,所属模式,委 托 单 位,被 审 (验) 单 位,客户出资类型,客户经济性质,客户行业类型,是否上市企业,营业执照号码或核准通知书号,注册地址,被（审）验单位注册资本/开办资金币种,被（审）验单位注册资本/开办资金（万元）,负责人姓名,项目客户类型,联系人姓名,联系人电话,委托项目类型,业务约定书号码,签约日期(格式：YYYY-DD-mm),报告文号,项目名称,报告日期(格式：YYYY-DD-mm),报告年度,发出报告份数,签名执业师类型,签名评估师一,签名评估师二,签名评估师三,签名评估师四,签名评估师五,签名评估师六,助理人员,业务所在地,收费依据,业务约定书收费（元）,实收业务费（元）,开具收款发票号码,开具收款发票号码2,收费日期(格式：YYYY-MM-dd),收费说明,留给后任评估师的话</columnName>		
+		<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+		<columnStartIndex>7</columnStartIndex>
+		<columnEndIndex>45</columnEndIndex>
+	</mainTable2>
+	
+	<tables>
+		<table typeId="yz001" typeName="验资" tableName="BB_YZB">
+			<column>guid,yzbz,yzhl,yzbzje,yzswje,yztdsyje,yzqtwszcje,yzqtje,bqyzwfczxhje,bqyzwfczswje,bqyzwfczlyztzje,bqyzwfczwxzcje,bqyzwfczqtje,yzzl,yzjzr,zj,gfzy,jz,gd1,gd2,gd3,gd4,qtgd,sjbgyjlx,blyjlx,notblyjlx</column>
+			<columnName>主键,验资币种,汇率,本次验资金额-货币（万元）,本次验资金额-实物（万元）,无形资产金额-使用土地权（万元）,无形资产金额-其它无形资产（万元）,本期验资金额-其它（万元）,其中：本期验证外方出资金额-现汇（万元）,其中：本期验证外方出资金额-实物（万元）,其中：本期验资外方出资金额-利润转投资（万元）,其中：本期验证外方出资金额-无形资产（万元）,其中：本期验资外方出资金额-其它（万元）,验资种类,验资截止日(格式：YYYY-MM-dd),增资（万元）,股份转让（万元）,减资（万元）,股东1,股东2,股东3,股东4,其它股东,报告意见类型,保留意见内容,无保留意见强调事项</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>71</columnEndIndex>
+		</table>
+		
+		<table typeId="sj001" typeName="审计" tableName="BB_SJB">
+			<column>guid,sjlx,zxsjmc,bgyt,hbhs,kgssgss,gpdm,sflxsj,qykjsswsmc,sjbgyjlx,blyjlx,notblyjlx,xssr,yysr,zcze,zxsjje,cyry,fzze,lrze,ylsde,jlr,ylsdse,xmzrs,wqgzts,xywtz,sjns,zctz,zctj,lrtz,lrtj,sstz,sstj,fzgyzclsje,xmjzje</column>
+			<columnName>guid,审计类型,专项审计名称,报告用途,合并户数,控股上市公司数,股票代码,是否连续审计,前任会计师事务所名称,审计报告意见类型,保留意见内容,无保留意见强调事项,销售收入（万元）,营业收入（万元）,资产总额（万元）, 专项审计金额,从业人员,负债总额（万元）,利润总额（万元）,应纳税所得额（万元）,净利润（万元）,应纳所得税额（万元）,项目组人数,外勤工作天数,新业务拓展,审计年数,资产调增（万元） ,资产调减（万元）,利润调增（万元） ,利润调减（万元）,税收调增（万元）,税收调减（万元）,防止国有资产流失金额（万元）,项目鉴证金额（万元）</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>79</columnEndIndex>
+		</table>
+		
+		<table typeId="whnj001" typeName="外汇年检" tableName="BB_WHNJB">
+			<column>guid,WHDJZH,BZ,whsrzj,whzczj,jcxmce,qtzc,whhbjj,jchj,ssjwjb,ssjlwhjb</column>
+			<columnName>主键,外汇登记证号,币种,外汇收入总计（万元）,外汇支出总计（万元）,经常项目差额（万元）,其它资产（万元）,外汇货币资金（万元）,资产合计（万元）,实收境外资本（万元）,实收境内外汇资本（万元）</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>56</columnEndIndex>
+		</table>
+		
+		<table typeId="sdshsqj001" typeName="所得税汇算清缴" tableName="BB_SDSHSQJB">
+			<column>guid,srze,xssr,xscb,lrze,lstzqsde,lstzzje,lstzjse,ylssde,sysl,qjfy,sjylssd,yjlssde,bqybsde,slswjg,gsswdjh,dsswdjh,sjswjgmc,bgyjlx,blyj,notblyj</column>
+			<columnName>主键,收入总额（万元）,销售（营业）收入（万元）,销售（营业）成本（万元）,利润总额（万元）,纳税调整前所得额（元）,纳税调整增加额（元）,纳税调整减少额（元）,应纳税所得额（元）,适用税率（%）,期间费用（管理费用、销售费用、财务费用）（元）,实际应纳税所得额（元）,已预缴所得税额（元）,本期应补（退、抵）所得税额（元）,受理税务机关,国税税务登记证号,地税税务登记证号,受理税务机关名称,报告意见类型,保留意见内容,无保留意见强调事项</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>66</columnEndIndex>
+		</table>
+		
+		<table typeId="ccsssqkcjj001" typeName="财产损失税前扣除鉴证" tableName="BB_CCSSSQKCJJB">
+			<column>guid,ccsslb,khsbssje,jzssje,bgyjlx,blyjly,notblyjly</column>
+			<columnName>主键,财产损失类别,客户申报损失金额（元）,鉴证损失金额（元）,报告意见类型,保留意见内容,无保留意见强调事项</columnName>
+			<columnValue>?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>52</columnEndIndex>
+		</table>
+		
+		<table typeId="qssh001" typeName="清算审计" tableName="BB_QSSHB">
+			<column>guid,qslx,qsjsy,qssd,ylssde,ylsde,bgyjlx,bjyjly,notblyjly,zcze,yysr,cyry,sjns,sftzje,zczetzh,xssrtzh</column>
+			<columnName>主键,清算类型,清算净损益（元）,清算所得（元）,应纳税所得额（元）,应纳所得税额（元）,报告意见类型,保留意见内容,无保留意见强调事项,资产总额,营业收入,从业人员,审计年数,是否需要调整,调整后资产总额,调整后营业收入</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>61</columnEndIndex>
+		</table>
+		
+		<table typeId="flsj001" typeName="分立审计" tableName="BB_FLSJB">
+			<column>guid,qslx,qsjsy,qssd,ylssde,ylsde,bgyjlx,bjyjly,notblyjly,zcze,xssr,cyry,sftzje,zczetzh,xssrtzh</column>
+			<columnName>主键,分立类型,分立净损益（元）,分立所得（元）,应纳税所得额（元）,应纳所得税额（元）,报告意见类型,保留意见内容,无保留意见强调事项,资产总额,营业收入,从业人员,是否需要调整,调整后资产总额,调整后营业收入</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>60</columnEndIndex>
+		</table>
+		
+		<table typeId="hbsj001" typeName="合并审计" tableName="BB_HBSJB">
+			<column>guid,qslx,qsjsy,qssd,ylssde,ylsde,bgyjlx,bjyjly,notblyjly,zcze,xssr,cyry,sftzje,zczetzh,xssrtzh</column>
+			<columnName>主键,合并类型,合并净损益（元）,合并所得（元）,应纳税所得额（元）,应纳所得税额（元）,报告意见类型,保留意见内容,无保留意见强调事项,资产总额,营业收入,从业人员,是否需要调整,调整后资产总额,调整后营业收入</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>60</columnEndIndex>
+		</table>
+		
+		<table typeId="qtssjj001" typeName="其他涉税鉴证" tableName="BB_QTSSJJB">
+			<column>guid,srze,xssr,xscb,qjfy,lrze,lstzqsde,lstzzje,lstzjse,ylssde,sysl,sjylssd,yyjsdse,bqybsdlse,slsjg,gsswdjh,dsswdjh,slswjgmc,bgyjlx,blyjly,notblyjly</column>
+			<columnName>主键,收入总额（万元）,销售（营业）收入（万元）,销售（营业）成本（万元）,期间费用（万元）,利润总额（万元）,纳税调整前所得额（元）,纳税调整增加额（元）,纳税调整减少额（元）,应纳税所得额（元）,适用税率（%）,实际应纳税所得额（元）,已预缴所得税额（元）,本期应补（元）,受理税务机关,国税税务登记证号,地税税务登记证号,受理税务机关名称,报告意见类型,保留意见内容,无保留意见强调事项</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>66</columnEndIndex>
+		</table>
+		
+		<table typeId="swdl001" typeName="税务代理" tableName="BB_SWDLB">
+			<column>guid,dlxm</column>
+			<columnName>主键,代理项目</columnName>
+			<columnValue>?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>47</columnEndIndex>
+		</table>
+		
+		<table typeId="zcpg001" typeName="资产评估" tableName="BB_ZCPGB">
+			<column>guid,pgmd,pgdx,pglx,pgff,pgjzr,zcze,fzze,jzze,sjdwmc</column>
+			<columnName>主键,评估目的,评估对象,价值类型,评估方法,评估基准日(格式：YYYY-MM-dd),资产总额（万元）,负债总额（万元）,净增值额（万元）,审计单位名称</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>46</columnStartIndex>
+			<columnEndIndex>54</columnEndIndex>
+		</table>
+		
+		<table typeId="qchz001" typeName="清产核资" tableName="BB_QCHZB">
+			<column>guid,zcze,fzze,jzze,xssr,cyry,sftzje,zczetzh,xssrtzh</column>
+			<columnName>主键,资产总额,负责总额,净增值额,营业收入,从业人员,是否需要调整,调整后资产总额（万元）,调整后营业收入（万元）</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>54</columnEndIndex>
+		</table>
+		
+		<table typeId="sfkjjd001" typeName="司法会计鉴定" tableName="BB_SFKJJDB">
+			<column>guid,jdjg,zcze,xssr,cyry,sftzje,zczetzh,xssrtzh</column>
+			<columnName>主键,鉴定结果,资产总额,营业收入,从业人员,是否需要调整,调整后资产总额,调整后营业收入</columnName>
+			<columnValue>?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>53</columnEndIndex>
+		</table>
+		
+		<table typeId="kjdsh001" typeName="会计电算化" tableName="BB_KJDSHB">
+			<column>guid,pjjs</column>
+			<columnName>主键,评价结果</columnName>
+			<columnValue>?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>47</columnEndIndex>
+		</table>
+		
+		<table typeId="kjzs001" typeName="会计咨询" tableName="BB_KJZSB">
+			<column>guid,zsxm</column>
+			<columnName>主键,咨询项目</columnName>
+			<columnValue>?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>47</columnEndIndex>
+		</table>
+		
+		<table typeId="bbqt001" typeName="报备其他" tableName="BB_BBQTB">
+			<column>guid,bustype,qtcbdxm</column>
+			<columnName>主键,其它业务类型,其它承办的项目</columnName>
+			<columnValue>?,?,?</columnValue>
+			<columnStartIndex>47</columnStartIndex>
+			<columnEndIndex>48</columnEndIndex>
+		</table>
+		
+		<table typeId="dxzhpg001" typeName="单项资产或资产组合评估" tableName="BB_DXZHPG">
+			<column>GUID,YWLX,PGJZR,JZLX,PGMD,PGDX,PGFW,ZYPGFFXZ,CYPGFFXZ,OTHERUSER,OTHERVALUE,ZMLDZC,ZMCQZC,ZMZJGC,ZMJZW,ZMSB,ZMTDSYQ,ZMWXZC,ZMQTZC,PGLDZC,PGCQZC,PGZJGC,PGJZW,PGSB,PGTDSYQ,PGWXZC,PGQTZC</column>
+			<columnName>主键,业务类型,评估基准日(格式：YYYY-MM-dd),价值类型,评估目的,评估对象,评估范围,主要评估方法,次要评估方法,委托方以外的其它评估报告使用者,市场价值以外的具体价值类型,账面价值流动资产（万元）,账面价值长期投资（万元）,账面价值固定资产在建工程（万元）,账面价值固定资产建筑物（万元）,账面价值固定资产设备（万元）,账面价值无形资产土地使用权（万元）,账面价值无形资产无形资产（万元）,账面价值其他资产（万元）,评估价值流动资产（万元）,评估价值长期投资（万元）,评估价值固定资产在建工程（万元）,评估价值固定资产建筑物（万元）,评估价值固定资产设备（万元）,评估价值无形资产土地使用权（万元）,评估价值无形资产无形资产（万元）,评估价值其他资产（万元）</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>46</columnStartIndex>
+			<columnEndIndex>71</columnEndIndex>
+		</table>
+		
+		<table typeId="qyjzpg001" typeName="企业价值评估" tableName="BB_QYJZPG">
+			<column>GUID,YWLX,PGJZR,JZLX,PGMD,PGDX,PGFW,ZYPGFFXZ,CYPGFFXZ,OTHERUSER,OTHERVALUE,ZMLDZC,ZMCQZC,ZMZJGC,ZMJZW,ZMSB,ZMTDSYQ,ZMWXZC,ZMQTZC,ZMLDFZ,ZMLQFZ,ZMJZC,ZMGDBFQYJZ,PGLDZC,PGCQZC,PGZJGC,PGJZW,PGSB,PGTDSYQ,PGWXZC,PGQTZC,PGLDFZ,PGLQFZ,PGJZC,PGGDBFQYJZ</column>
+			<columnName>主键,业务类型,评估基准日(格式：YYYY-MM-dd),价值类型,评估目的,评估对象,评估范围,主要评估方法,次要评估方法,委托方以外的其它评估报告使用者,市场价值以外的具体价值类型,账面价值流动资产（万元）,账面价值长期投资（万元）,账面价值固定资产在建工程（万元）,账面价值固定资产建筑物（万元）,账面价值固定资产设备（万元）,账面价值无形资产土地使用权（万元）,账面价值无形资产无形资产（万元）,账面价值其他资产（万元）,账面价值流动负债（万元）,账面价值长期负债（万元）,账面价值净资产（股东全部权益价值）（万元）,账面价值股东部分权益价值（万元）,评估价值流动资产（万元）,评估价值长期投资（万元）,评估价值固定资产在建工程（万元）,评估价值固定资产建筑物（万元）,评估价值固定资产设备（万元）,评估价值无形资产土地使用权（万元）,评估价值无形资产无形资产（万元）,评估价值其他资产（万元）,评估价值流动负债（万元）,评估价值长期负债（万元）,评估价值净资产（股东全部权益价值）（万元）,评估价值股东部分权益价值（万元）</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>46</columnStartIndex>
+			<columnEndIndex>79</columnEndIndex>
+		</table>
+		
+		<table typeId="jrblpg001" typeName="金融不良资产评估" tableName="BB_JRZCPG">
+			<column>GUID,YWLX,BGLX,HZZS,ZQJE,SWLZC,GQLZC,QTZC,ZQLZC</column>
+			<columnName>主键,业务类型,报告形式,汇总户数,债权金额,评估价值实物类资产（万元）,评估价值股权类资产（万元）,评估价值其他资产（万元）,评估价值债权类资产（万元）</columnName>
+			<columnValue>?,?,?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>46</columnStartIndex>
+			<columnEndIndex>53</columnEndIndex>
+		</table>
+		
+		<table typeId="qtzcpg001" typeName="其他资产评估" tableName="BB_QTZCPG">
+			<column>GUID,YWLX,PGMD,PGDX,ZYPGFFXZ,ZMYZ,PGJZ</column>
+			<columnName>主键,业务类型,评估目的,评估对象,主要评估方法,账面原值（万元）,评估价值（万元）</columnName>
+			<columnValue>?,?,?,?,?,?,?</columnValue>
+			<columnStartIndex>46</columnStartIndex>
+			<columnEndIndex>51</columnEndIndex>
+		</table>
+	</tables>
+	
+</root>

@@ -1,0 +1,183 @@
+.txtInput {
+	FONT-SIZE: 12px; WIDTH: 258px; TEXT-ALIGN: left
+}
+.box {
+	BORDER-RIGHT: #384ed6 1px solid; BORDER-TOP: #384ed6 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #384ed6 1px solid; BORDER-BOTTOM: #384ed6 1px solid
+}
+.box1 {
+	BORDER-RIGHT: #ff7719 1px solid; BORDER-TOP: #ff7719 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #ff7719 1px solid; BORDER-BOTTOM: #ff7719 1px solid
+}
+.text_login {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 18px; FONT-FAMILY: "宋体"
+}
+.txtInput1 {
+	FONT-SIZE: 12px; WIDTH: 178px; TEXT-ALIGN: left
+}
+.txtInput2 {
+	FONT-SIZE: 12px; WIDTH: 208px; TEXT-ALIGN: left
+}
+.txtInput3 {
+	FONT-SIZE: 12px; WIDTH: 140px; TEXT-ALIGN: left
+}
+.noIgnore {
+	COLOR: red
+}
+.treeConDiv {
+	HEIGHT: 80%
+}
+.treeSpan {
+	MARGIN-TOP: 10px; DISPLAY: block; TEXT-INDENT: 6px; TEXT-ALIGN: left
+}
+.treeDiv {
+	BORDER-RIGHT: #384ed6 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #384ed6 1px solid; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 3px 5px 15px; OVERFLOW: auto; BORDER-LEFT: #384ed6 1px solid; WIDTH: 360px; PADDING-TOP: 5px; BORDER-BOTTOM: #384ed6 1px solid; HEIGHT: 340px; TEXT-ALIGN: left
+}
+.treeDiv1 {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 5px; OVERFLOW: auto; WIDTH: 230px; HEIGHT: 98%
+}
+.spanSelRoles {
+	MARGIN-TOP: 5px; MARGIN-LEFT: 5px; PADDING-TOP: 5px
+}
+.buttonDiv {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px; MARGIN-LEFT: 5px; OVERFLOW: auto; TEXT-ALIGN: center
+}
+.data_table {
+	BORDER-RIGHT: #3d7ae3 0.9pt solid; BORDER-TOP: #3d7ae3 0.9pt solid; BORDER-LEFT: #3d7ae3 0.9pt solid; BORDER-BOTTOM: #3d7ae3 0.9pt solid; BORDER-COLLAPSE: collapse
+}
+.data_table TD {
+	BORDER-RIGHT: #3d7ae3 0.9pt solid; BORDER-TOP: #3d7ae3 0.9pt solid; BORDER-LEFT: #3d7ae3 0.9pt solid; BORDER-BOTTOM: #3d7ae3 0.9pt solid
+}
+.data_table A {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.data_table A:hover {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.data_table_header {
+	PADDING-TOP: 0px; BACKGROUND-COLOR: #c2dfff; TEXT-ALIGN: center
+}
+.data_table_leftalign {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; HEIGHT: 22px; BACKGROUND-COLOR: #bedfff; TEXT-ALIGN: left
+}
+.data_table_rightalign {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; HEIGHT: 22px; BACKGROUND-COLOR: #bedfff; TEXT-ALIGN: right
+}
+.data_table_centeralign {
+	HEIGHT: 22px; BACKGROUND-COLOR: #bedfff; TEXT-ALIGN: center
+}
+.data_table_footer {
+	PADDING-RIGHT: 6px; HEIGHT: 22px; BACKGROUND-COLOR: #f7faf3
+}
+.result_table TR {
+	
+}
+.result_table TD {
+	BORDER-RIGHT: #a4b6d7 0.9pt solid; PADDING-RIGHT: 0px; BORDER-TOP: #a4b6d7 0.9pt solid; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; BORDER-LEFT: #a4b6d7 0.9pt solid; PADDING-TOP: 10px; BORDER-BOTTOM: #a4b6d7 0.9pt solid; TEXT-ALIGN: left
+}
+.result_table A {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.result_table A:hover {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.result_table {
+	PADDING-TOP: 0px; BACKGROUND-COLOR: #d3dbee; TEXT-ALIGN: center
+}
+.result_table_header_leftalign {
+	PADDING-TOP: 0px; HEIGHT: 22px; BACKGROUND-COLOR: #d3dbee; TEXT-ALIGN: left
+}
+.result_table_header_rightalign {
+	PADDING-RIGHT: 6px; HEIGHT: 22px; BACKGROUND-COLOR: #d3dbee; TEXT-ALIGN: right
+}
+.result_table_footer {
+	PADDING-RIGHT: 6px; HEIGHT: 22px; BACKGROUND-COLOR: #f7faf3
+}
+TABLE CAPTION {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; PADDING-BOTTOM: 3px; PADDING-TOP: 5px
+}
+.divCommon {
+	DISPLAY: block; POSITION: relative
+}
+.divInner {
+	MARGIN: 5px
+}
+.taskTable {
+	BORDER-RIGHT: 0.9pt solid; BORDER-TOP: 0.9pt solid; BORDER-LEFT: 0.9pt solid; BORDER-BOTTOM: 0.9pt solid; BORDER-COLLAPSE: collapse
+}
+.spanFre {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; HEIGHT: 20px
+}
+.divFre {
+	BORDER-RIGHT: #6495ed 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #6495ed 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 10px 5px; BORDER-LEFT: #6495ed 1px solid; PADDING-TOP: 5px; BORDER-BOTTOM: #6495ed 1px solid
+}
+TD.alignleft1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+.spanUserRole {
+	MARGIN-TOP: 5px; DISPLAY: block; MARGIN-BOTTOM: 5px; HEIGHT: 20px
+}
+.divRole {
+	BORDER-RIGHT: #384ed6 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #384ed6 1px solid; DISPLAY: block; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; MARGIN: 3px 5px 15px 20px; OVERFLOW: auto; BORDER-LEFT: #384ed6 1px solid; WIDTH: 400px; PADDING-TOP: 5px; BORDER-BOTTOM: #384ed6 1px solid; HEIGHT: 180px; TEXT-ALIGN: left
+}
+.spanLabel {
+	DISPLAY: block; TEXT-INDENT: 14px; TEXT-ALIGN: left
+}
+.spanSaveInfo_fail {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #ff0000; TEXT-DECORATION: none
+}
+.spanSaveInfo_success {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #339933; TEXT-DECORATION: none
+}
+.spanNavInfo {
+	MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px
+}
+#tbSaveInfo {
+	MARGIN-TOP: 20px; MARGIN-BOTTOM: 30px
+}
+#tbNavInfo {
+	MARGIN-TOP: 12px
+}
+.divAllRoles {
+	BORDER-RIGHT: black 1px solid; BORDER-TOP: black 1px solid; DISPLAY: none; Z-INDEX: 3; BORDER-LEFT: black 1px solid; BORDER-BOTTOM: black 1px solid; POSITION: absolute
+}
+.divResImport {
+	BORDER-RIGHT: #d0d2d1 1px solid; BORDER-TOP: #d0d2d1 1px solid; MARGIN-TOP: 8%; DISPLAY: block; PADDING-BOTTOM: 10px; BORDER-LEFT: #d0d2d1 1px solid; WIDTH: 88%; PADDING-TOP: 10px; BORDER-BOTTOM: #d0d2d1 1px solid; HEIGHT: 180px; BACKGROUND-COLOR: #f4f4f4; TEXT-ALIGN: center
+}
+.divResExport {
+	BORDER-RIGHT: #d0d2d1 1px solid; BORDER-TOP: #d0d2d1 1px solid; MARGIN-TOP: 20px; DISPLAY: block; PADDING-BOTTOM: 10px; BORDER-LEFT: #d0d2d1 1px solid; WIDTH: 88%; PADDING-TOP: 10px; BORDER-BOTTOM: #d0d2d1 1px solid; HEIGHT: 100px; BACKGROUND-COLOR: #f4f4f4
+}
+.divInnerExport {
+	MARGIN-TOP: 20px; DISPLAY: block; MARGIN-BOTTOM: 20px
+}
+.fsInnerExport {
+	WIDTH: 60%
+}
+.ccpdemoField {
+	COLOR: red; FONT-STYLE: italic
+}
+.funTitle {
+	FONT-WEIGHT: bold
+}
+.checkbox {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+TD .left {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+TD .right {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; TEXT-ALIGN: right
+}
+.comDiv {
+	BORDER-RIGHT: #000 1px solid; BORDER-TOP: #000 1px solid; DISPLAY: none; Z-INDEX: 99; FLOAT: left; OVERFLOW: auto; BORDER-LEFT: #000 1px solid; WIDTH: 178px; BORDER-BOTTOM: #000 1px solid; POSITION: absolute; BACKGROUND-COLOR: #f5fffa
+}
+.divElem {
+	MARGIN-TOP: 1px; DISPLAY: block; MARGIN-BOTTOM: 1px; MARGIN-LEFT: 2px
+}
+A {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0548c0; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+UL {
+	LIST-STYLE-IMAGE: url(../../images/icon/icon_left.gif); LIST-STYLE-TYPE: none
+}

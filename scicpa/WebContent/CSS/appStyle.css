@@ -1,0 +1,243 @@
+.fullInput {
+	WIDTH: 100%
+}
+.font14 {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; LETTER-SPACING: 1px
+}
+.font10 {
+	FONT-SIZE: 10pt; LETTER-SPACING: 1px
+}
+.box {
+	BORDER-RIGHT: #384ed6 1px solid; BORDER-TOP: #384ed6 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #384ed6 1px solid; BORDER-BOTTOM: #384ed6 1px solid
+}
+.box1 {
+	BORDER-RIGHT: #ff7719 1px solid; BORDER-TOP: #ff7719 1px solid; FONT-SIZE: 9px; BORDER-LEFT: #ff7719 1px solid; BORDER-BOTTOM: #ff7719 1px solid
+}
+.rightbox {
+	BORDER-RIGHT: #ff7719 1px solid; BORDER-TOP: #ff7719 1px solid; BACKGROUND: #fcfcfe; BORDER-LEFT: #ff7719 1px solid; BORDER-BOTTOM: #ff7719 1px solid
+}
+.BUTTON {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 12px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-LEFT: #999999 1px solid; PADDING-TOP: 1px; BORDER-BOTTOM: #999999 1px solid; HEIGHT: 18px; TEXT-ALIGN: center
+}
+.selectInput {
+	BORDER-RIGHT: medium none; BORDER-TOP: medium none; BORDER-LEFT: medium none; COLOR: #000000; BORDER-BOTTOM: medium none
+}
+.TABLE {
+	WIDTH: 96%
+}
+TD.alignCenter {
+	TEXT-ALIGN: center
+}
+TD.alignCenter2 {
+	WORD-BREAK: break-all; TEXT-ALIGN: center; WORD-WRAP: break-word
+}
+TD.alignRight {
+	TEXT-ALIGN: right
+}
+TD.alignRight2 {
+	PADDING-RIGHT: 8px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; TEXT-ALIGN: right
+}
+TD.alignleft {
+	TEXT-ALIGN: left
+}
+TD.alignleft1 {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 1px; PADDING-TOP: 2px; TEXT-ALIGN: left
+}
+TD.alignleft2 {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 2px; PADDING-TOP: 3px; TEXT-ALIGN: left
+}
+TD.alignleft_changeline {
+	WORD-BREAK: break-all; TEXT-ALIGN: left; WORD-WRAP: break-word
+}
+TD.alignleft2_changline {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 2px; WORD-BREAK: break-all; PADDING-TOP: 3px; TEXT-ALIGN: left; WORD-WRAP: break-word
+}
+.select {
+	FONT-SIZE: 12px; WIDTH: 124px; TEXT-ALIGN: left
+}
+.text_login {
+	FONT-SIZE: 13px; COLOR: #ffffff; LINE-HEIGHT: 18px; FONT-FAMILY: "宋体"
+}
+.text_title {
+	FONT-WEIGHT: normal; FONT-SIZE: 13px; COLOR: #000000; FONT-FAMILY: "宋体"
+}
+.text {
+	FONT-SIZE: 13px; COLOR: #e1effb; LINE-HEIGHT: 18px; FONT-FAMILY: "宋体"
+}
+.text A {
+	FONT-SIZE: 12px; COLOR: #3366cc; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.text A:hover {
+	FONT-SIZE: 12px; COLOR: #3366cc; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.n2 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; BACKGROUND: url(../images/sanjiao.jpg) no-repeat center center; BORDER-LEFT: 0px; WIDTH: 12px; CURSOR: default; BORDER-BOTTOM: 0px
+}
+.n1 {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px; FONT-SIZE: 12px; BORDER-LEFT: 0px; CURSOR: default; COLOR: #333; BORDER-BOTTOM: 0px
+}
+.ss {
+	BACKGROUND: #0a246a; COLOR: #ffffff
+}
+.column_pop_title_bg {
+	BACKGROUND-COLOR: #e1e1e1; TEXT-ALIGN: center
+}
+.column_pop_title_bg_left {
+	BACKGROUND-COLOR: #e1e1e1; TEXT-ALIGN: left
+}
+.column_pop_title_bg_right {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; BACKGROUND-COLOR: #e1e1e1; TEXT-ALIGN: right
+}
+.column_pop_content_bg {
+	HEIGHT: 22px; BACKGROUND-COLOR: #ffffff
+}
+.blue_bg {
+	PADDING-TOP: 0px; BACKGROUND-COLOR: #c2dfff; TEXT-ALIGN: center
+}
+.data_table {
+	BORDER-RIGHT: #3d7ae3 0.9pt solid; BORDER-TOP: #3d7ae3 0.9pt solid; BORDER-LEFT: #3d7ae3 0.9pt solid; BORDER-BOTTOM: #3d7ae3 0.9pt solid; BORDER-COLLAPSE: collapse
+}
+.data_table TD {
+	BORDER-RIGHT: #3d7ae3 0.9pt solid; BORDER-TOP: #3d7ae3 0.9pt solid; BORDER-LEFT: #3d7ae3 0.9pt solid; BORDER-BOTTOM: #3d7ae3 0.9pt solid
+}
+.data_table A {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.data_table A:hover {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.data_table_header {
+	PADDING-TOP: 0px; BACKGROUND-COLOR: #c2dfff; TEXT-ALIGN: center
+}
+.data_table_leftalign {
+	PADDING-TOP: 0px; HEIGHT: 22px; BACKGROUND-COLOR: #bedfff; TEXT-ALIGN: left
+}
+.data_table_rightalign {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 8px; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; HEIGHT: 22px; BACKGROUND-COLOR: #bedfff; TEXT-ALIGN: right
+}
+.data_table_footer {
+	PADDING-RIGHT: 6px; HEIGHT: 22px; BACKGROUND-COLOR: #f7faf3
+}
+.report_table {
+	BORDER-RIGHT: #6d88b7 0.9pt solid; BORDER-TOP: #6d88b7 0.9pt solid; BORDER-LEFT: #6d88b7 0.9pt solid; BORDER-BOTTOM: #6d88b7 0.9pt solid; BORDER-COLLAPSE: collapse
+}
+.report_table TD {
+	BORDER-RIGHT: #6d88b7 1px solid; BORDER-TOP: #6d88b7 1px solid; BORDER-LEFT: #6d88b7 1px solid; BORDER-BOTTOM: #6d88b7 1px solid; HEIGHT: 22px
+}
+.report_table A {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.report_table A:hover {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.report_table_header {
+	PADDING-TOP: 2px; HEIGHT: 25px; BACKGROUND-COLOR: #c2dfff; TEXT-ALIGN: center
+}
+.reporttable_leftalign {
+	PADDING-TOP: 0px; HEIGHT: 22px; BACKGROUND-COLOR: #bedfff; TEXT-ALIGN: left
+}
+.report_table_rightalign {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; HEIGHT: 22px; BACKGROUND-COLOR: #bedfff; TEXT-ALIGN: right
+}
+.report_top_title_bg {
+	FONT-SIZE: 13pt; BACKGROUND-COLOR: #e1e1e1; TEXT-ALIGN: center
+}
+.free_stytle {
+	BACKGROUND-COLOR: #e4e5e6
+}
+.free_stytle2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; FONT-FAMILY: "仿宋_GB2312"; BACKGROUND-COLOR: #e4e5e6
+}
+.rpt_red_font {
+	COLOR: #ff0000; TEXT-ALIGN: left
+}
+.inner_table {
+	BORDER-RIGHT: 0.9pt solid; TABLE-LAYOUT: auto; BORDER-TOP: 0.9pt solid; BORDER-LEFT: 0.9pt solid; BORDER-BOTTOM: 0.9pt solid; BORDER-COLLAPSE: collapse; frame: below
+}
+.inner_table TD {
+	BORDER-RIGHT: 0.9pt solid; PADDING-RIGHT: 8px; BORDER-TOP: 0.9pt solid; PADDING-LEFT: 8px; PADDING-BOTTOM: 0px; BORDER-LEFT: 0.9pt solid; PADDING-TOP: 0px; BORDER-BOTTOM: 0.9pt solid
+}
+.inner_table A {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+.inner_table A:hover {
+	FONT-SIZE: 12px; COLOR: #0a33ca; FONT-FAMILY: "宋体"; TEXT-DECORATION: underline
+}
+.noBorder_table {
+	frame: void
+}
+.textarea {
+	BORDER-RIGHT: #999999 1px solid; BORDER-TOP: #999999 1px solid; FONT-SIZE: 12px; BORDER-LEFT: #999999 1px solid; BORDER-BOTTOM: #999999 1px solid
+}
+.querybg {
+	BORDER-RIGHT: #888888 0px solid; PADDING-RIGHT: 16px; BORDER-TOP: #888888 0px solid; PADDING-LEFT: 16px; BACKGROUND-IMAGE: url(../images/icon/tc05.gif); PADDING-BOTTOM: 3px; BORDER-LEFT: #888888 0px solid; PADDING-TOP: 3px; BORDER-BOTTOM: #888888 1px solid; BACKGROUND-COLOR: #eaeaea
+}
+.query_title_bg_right {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 3px; PADDING-TOP: 4px; BACKGROUND-COLOR: #c0caf4; TEXT-ALIGN: right
+}
+.bigfont {
+	FONT-SIZE: 10pt; TEXT-DECORATION: none
+}
+.font-align {
+	WORD-SPACING: normal; LINE-HEIGHT: 22px; TEXT-ALIGN: center
+}
+.box_table {
+	BORDER-RIGHT: #7e7e7e 1px solid; BORDER-TOP: black 0px solid; FONT-SIZE: 12px; BORDER-LEFT: #7e7e7e 1px solid; BORDER-BOTTOM: #7e7e7e 1px solid; BACKGROUND-COLOR: #f9f8ff
+}
+.toptitle_bg {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; LETTER-SPACING: 1px; TEXT-ALIGN: center; BORDER-BOTTOM-STYLE: solid
+}
+.toptitle_bg2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16pt; BORDER-TOP-STYLE: none; FONT-FAMILY: "仿宋_GB2312"; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; LETTER-SPACING: 1px; TEXT-ALIGN: center; BORDER-BOTTOM-STYLE: solid
+}
+.blue_stytle {
+	BACKGROUND-COLOR: #c2dfff
+}
+.align_right {
+	TEXT-ALIGN: right
+}
+.box_cell {
+	BORDER-RIGHT: #7e7e7e 0px solid; BORDER-TOP: black 0px solid; BORDER-LEFT: #7e7e7e 0px solid; BORDER-BOTTOM: #7e7e7e 1px solid; BACKGROUND-COLOR: #ffffff; TEXT-ALIGN: center
+}
+.align_right2 {
+	BACKGROUND-COLOR: #99ff99; TEXT-ALIGN: right
+}
+BODY {
+	FONT-SIZE: 12px; OVERFLOW: auto; FONT-FAMILY: "宋体"; BACKGROUND-COLOR: #f6fcff
+}
+DIV {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+P {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: "宋体"
+}
+A {
+	COLOR: #0548c0; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #000000; FONT-FAMILY: "宋体"; TEXT-DECORATION: none
+}
+INPUT {
+	BORDER-RIGHT: #999999 0.9pt solid; BORDER-TOP: #999999 0.9pt solid; FONT-SIZE: 10pt; LEFT: 50px; BORDER-LEFT: #999999 0.9pt solid; COLOR: #000000; BORDER-BOTTOM: #999999 0.9pt solid
+}
+.boxcwbb {
+	BORDER-RIGHT: #e1e2e6 0.9pt solid; BORDER-TOP: #e1e2e6 0.9pt solid; BORDER-LEFT: #e1e2e6 0.9pt solid; BORDER-BOTTOM: #e1e2e6 0.9pt solid
+}
+.font2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #075ae6; TEXT-DECORATION: none
+}
+.boxTable {
+	BORDER-RIGHT: #e1e2e6 1px solid; BORDER-TOP: #e1e2e6 1px solid; BORDER-LEFT: #e1e2e6 1px solid; BORDER-BOTTOM: #e1e2e6 1px solid
+}
+.tip {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; FONT-SIZE: 12px; PADDING-BOTTOM: 3px; COLOR: red; PADDING-TOP: 3px
+}
+.tip IMG {
+	MARGIN: 0px 3px 0px 0px
+}
+.rpt_header {
+	FONT-WEIGHT: bold; FONT-SIZE: 14pt; FONT-FAMILY: 宋体; TEXT-ALIGN: center
+}

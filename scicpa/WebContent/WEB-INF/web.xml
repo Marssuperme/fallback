@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+ version="2.4">
+	<security-constraint>
+		<web-resource-collection>
+			<url-pattern>/*</url-pattern>
+			<http-method>PUT</http-method>
+			<http-method>DELETE</http-method>
+			<http-method>HEAD</http-method>
+			<http-method>OPTIONS</http-method>
+			<http-method>TRACE</http-method>
+		</web-resource-collection>
+		<auth-constraint></auth-constraint>
+	</security-constraint>
+	<login-config>
+		<auth-method>BASIC</auth-method>
+	</login-config>
+	<display-name>GDICPA</display-name>
+	 <filter>
+              <filter-name>ClickjackFilterSameOrigin</filter-name>
+              <filter-class>cn.org.gdicpa.web.pub.filter.ClickjackFilter</filter-class>
+              <init-param>
+                  <param-name>mode</param-name>
+                  <param-value>SAMEORIGIN</param-value>
+              </init-param>
+      </filter>
+      <filter-mapping> 
+             <filter-name>ClickjackFilterSameOrigin</filter-name>
+              <url-pattern>/*</url-pattern>
+     </filter-mapping> 
+	<filter>
+		<filter-name>RequestFilter</filter-name>
+		<filter-class>cn.org.gdicpa.web.pub.filter.RequestFilter</filter-class>
+		<init-param>
+			<param-name>LOG_IN_URL</param-name>
+			<param-value>/login.jsp</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>RequestFilter</filter-name>
+		<url-pattern>*.jsp</url-pattern>
+	</filter-mapping>
+	<filter-mapping>
+		<filter-name>RequestFilter</filter-name>
+		<url-pattern>*.do</url-pattern>
+	</filter-mapping>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>ServletConfigurator</servlet-name>
+		<servlet-class>
+			org.logicalcobwebs.proxool.configuration.ServletConfigurator</servlet-class>
+		<init-param>
+			<param-name>xmlFile</param-name>
+			<param-value>WEB-INF/proxool.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>Dispatcher</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>/WEB-INF/classes/SpringConfig.xml</param-value>
+		</init-param>
+	</servlet>
+
+	<servlet>
+		<servlet-name>BarcodeServlet</servlet-name>
+		<servlet-class>org.krysalis.barcode4j.servlet.BarcodeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>BarcodeServlet</servlet-name>
+		<url-pattern>/barcode</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>Dispatcher</servlet-name>
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+
+	<jsp-config>
+		<taglib>
+			<taglib-uri>http://www.matech.cn/tag</taglib-uri>
+			<taglib-location>/WEB-INF/tld/matech.tld</taglib-location>
+		</taglib>
+		<taglib>
+			<taglib-uri>http://java.sun.com/jstl/core</taglib-uri>
+			<taglib-location>/WEB-INF/tld/c.tld</taglib-location>
+		</taglib>
+	</jsp-config>
+
+	<servlet>
+		<servlet-name>Admin</servlet-name>
+		<servlet-class>org.logicalcobwebs.proxool.admin.servlet.AdminServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Admin</servlet-name>
+		<url-pattern>/admin</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>weblogic.jsp.encoding</param-name>
+		<param-value>GBK</param-value>
+	</context-param>
+	<!-- WEBDAV开启级别 -->
+    <security-constraint>  
+	   <web-resource-collection>  
+	      <url-pattern>/*</url-pattern>  
+	      <http-method>PUT</http-method>  
+		<http-method>DELETE</http-method>  
+		<http-method>HEAD</http-method>  
+		<http-method>OPTIONS</http-method>  
+		<http-method>TRACE</http-method>  
+	
+	   </web-resource-collection>  
+	   <auth-constraint>  
+	   </auth-constraint>  
+	</security-constraint>
+</web-app>

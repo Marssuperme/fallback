@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root> 
+	<mainTable tableName="XS_ApplyHoldSelfHour"> 
+		<column>id,companyid,classId,micfoNum,micfoName,hourType,trainingName,examResult,attendance,isOver,ReportNumber,reason,post,hourResult,years</column>
+		<columnName>主键,事务所编号,培训班编号,注师编号,注师姓名,学时形式,培训班名称,考试考核结果,出勤率,是否结业,结业证书编号,未结业原因,职务,学时结果,所属年度</columnName>
+		<columnValue>?,?,?,?,?,?,?,?,?,?,?,?,?,?,?</columnValue>
+		<columnStartIndex>0</columnStartIndex>
+		<columnEndIndex>11</columnEndIndex>
+	</mainTable>
+</root>

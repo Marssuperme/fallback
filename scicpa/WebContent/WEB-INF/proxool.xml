@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<proxool-config>
+	<proxool>
+		<alias>scicpa</alias>
+        <driver-url>jdbc:sqlserver://192.168.1.239:4499;database=MTOA_SCICPA;</driver-url>
+		<driver-class>com.microsoft.sqlserver.jdbc.SQLServerDriver</driver-class>
+		<driver-properties>
+			<property name="user" value="sa" />
+			<property name="password" value="Matech520" />
+		</driver-properties>
+		<house-keeping-sleep-time>900000</house-keeping-sleep-time>
+		<maximum-connection-count>1000</maximum-connection-count>
+		<maximum-new-connections>50</maximum-new-connections>
+		<house-keeping-test-sql>select GETDATE()</house-keeping-test-sql>
+	</proxool>
+</proxool-config>

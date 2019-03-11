@@ -1,0 +1,5 @@
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+driverUrl=jdbc:sqlserver://192.168.1.239:4499;database=MTOA_SCICPA
+user=m0lwuYw79Bk=
+password=WxejLj3tX0hpbQzAYUDQxA==
+#password=ApqXTntgdluWdCYrgAC8hA==

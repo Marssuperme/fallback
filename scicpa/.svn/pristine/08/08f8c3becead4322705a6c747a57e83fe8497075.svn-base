@@ -1,0 +1,42 @@
+
+.fbart{padding:3px 6px;border-bottom:1px solid #A9CBEE;height:18px;line-height:18px;}
+.fbart em{font-weight:bold;font-style:normal;padding:0 3px;float:right;}
+.fbart dfn{font-style:normal;padding:0 3px;float:right;}
+.fbart h1{font-size:14px;margin:0;padding:3px 0 0;} 
+
+.mframe{float:left;width:100%;margin:2px 0;text-align:left;border:1px solid #A9CBEE;}
+.mframe td.rb{vertical-align:bottom;}
+.mframe td.rw{vertical-align:top;}
+.mframe ul{list-style-type:none;margin:0;padding:0;}
+
+.mframe td.lf{width:162px;background:#f6f9fe;padding:20px 10px 13px 15px;border-right:1px solid #A9CBEE;vertical-align:top;}
+.mframe td.lf div.df{width:162px;}
+.mframe td.lf ul li{padding:4px 0;}
+.mframe td.lf ul li.center{text-align:left;}
+.mframe td.lf ul li.center img{border:1px solid #CCC;}
+.mframe td.lf ul li dfn{font-weight:bold;font-style:normal;display:block;padding:2px 0 2px 0;text-align:left;}
+.mframe td.lf ul li dfn a{color:#333;}
+.mframe td.lf ul li cite a:hover{text-decoration:none;}
+.mframe td.lf ul li em{float:left;font-style:normal;margin:23px 0 0;}
+.mframe td.lf ul li em a{color:#000;}
+.mframe td.lf ul li div.medalregion{float:left;}
+.mframe td.lf ul li div.medalregion div{float:left;}
+.mframe td.lf ul li div.medalregion div p.medalnum{color:#FFF;font:bold 9px Tahoma,simsun;margin:2px 0 0 19px;}
+
+.fbarb{clear:both;border-top:1px solid #A9CBEE;background:#f6f9fe;height:18px;padding:3px 6px;line-height:18px;}
+.fbarb ul{float:right;}
+.fbarb ul li{float:left;}
+.fbarb ul li a{color: #000;padding:0 6px;text-decoration:none;border-right:1px solid #666;}
+.fbarb ul li a.nob{border:0;}
+.fbarb ul li a.dr{color:#B00;}
+.fbarb ul li a.gr{color:#002D93;}
+.fbarb div.rt{width:440px;overflow:hidden;white-space:nowrap;}
+.fbarb dfn{font-style:normal;float:right;}
+.msgfont{width:718px;overflow-x:hidden;word-break:break-all;}
+.msgfont span{line-height:150%;}
+
+.tit{border:1px solid #2C6189; background:url(${pageContext.request.contextPath}/images/pic_titbg.gif) #347ea1 repeat-x ;width:100%; padding:3px 5px;}
+.tit h1{font-size:14px;color:#fff;margin:0;padding:3px 0 0;}
+.tit h1 em{font:bold 14px simsun;font-style:normal;color:#F00;margin:0 0 0 3px;}
+.tit dfn{font-style:normal;float:right;}
+

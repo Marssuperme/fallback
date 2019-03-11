@@ -1,0 +1,693 @@
+BODY {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; MARGIN: 0px; COLOR: #474747; FONT-SIZE: 12px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+TD {
+	FONT-SIZE: 12px
+}
+.zidonghuanhang {
+	WORD-BREAK: break-all
+}
+.repcss {
+	BACKGROUND-COLOR: #ffffff; COLOR: #333333
+}
+.repcss DIV {
+	BORDER-BOTTOM: #dfe0db 1px solid; BORDER-LEFT: #dfe0db 1px solid; BORDER-RIGHT: #dfe0db 1px solid
+}
+.repcss DIV DIV {
+	BORDER-BOTTOM: #dfe0db 0px solid; BORDER-LEFT: #dfe0db 0px solid; LINE-HEIGHT: 25px; MARGIN-LEFT: 10px; MARGIN-RIGHT: 10px; BORDER-RIGHT: #dfe0db 0px solid
+}
+.top A:link {
+	COLOR: #d26868; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.top A:visited {
+	COLOR: #d26868; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.top A:hover {
+	COLOR: #ff0000; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+H1 {
+	TEXT-ALIGN: center; LINE-HEIGHT: 48px; COLOR: #278402; FONT-SIZE: 18px
+}
+.lineheight {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; WIDTH: 100%; HEIGHT: 100%; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.classTable {
+	LINE-HEIGHT: 28px; HEIGHT: 30px; FONT-SIZE: 14px
+}
+.classTable .ftc {
+	COLOR: #227503
+}
+.classTable TD {
+	BORDER-BOTTOM: #dff2c5 1px solid; LINE-HEIGHT: 24px; FONT-SIZE: 14px
+}
+.classTableDy {
+	LINE-HEIGHT: 24px; FONT-SIZE: 12px
+}
+.classTableDy TD {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.classTableTr {
+	BACKGROUND-COLOR: #edf8fc
+}
+.classTable2 {
+	LINE-HEIGHT: 24px; FONT-SIZE: 14px
+}
+.box {
+	BORDER-BOTTOM: #999999 1px solid; BORDER-LEFT: #999999 1px solid; BORDER-TOP: #999999 1px solid; BORDER-RIGHT: #999999 1px solid
+}
+.font12 {
+	LINE-HEIGHT: 20px; FONT-SIZE: 12px
+}
+.font14 {
+	LINE-HEIGHT: 22px; FONT-SIZE: 14px
+}
+.f12 {
+	LINE-HEIGHT: 20px; FONT-SIZE: 12px
+}
+.f14 {
+	LINE-HEIGHT: 22px; FONT-SIZE: 14px
+}
+.f14b {
+	LINE-HEIGHT: 22px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.font20 {
+	LINE-HEIGHT: 20px; FONT-SIZE: 20px
+}
+.downbutton {
+	POSITION: absolute; BACKGROUND-COLOR: #ffffff; BORDER-TOP: #cccccc 1px solid; ; TOP: expression(body.scrollTop+body.clientHeight-this.offsetHeight); LEFT: 0px
+}
+.buy {
+	CLIP: rect(0px 0px 0px 0px); BACKGROUND-IMAGE: url(/images/home/buy.gif); BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 20px; WIDTH: 98px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center 50%; HEIGHT: 34px; FONT-SIZE: 12px; BORDER-TOP: 0px; TOP: 0px; CURSOR: hand; FONT-WEIGHT: bold; BORDER-RIGHT: 0px; PADDING-TOP: 10px; LEFT: 0px
+}
+.folder {
+	BACKGROUND-IMAGE: url(/images/home/e.gif); BORDER-BOTTOM: #8ecaff 1px solid; TEXT-ALIGN: left; BACKGROUND-COLOR: #eff8ff; PADDING-LEFT: 30px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%; HEIGHT: 1.7em; COLOR: #0042b7; FONT-SIZE: 12px; BORDER-TOP: #8ecaff 1px solid; CURSOR: hand; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.collapsedFolder {
+	BACKGROUND-IMAGE: url(/images/home/c.gif); BORDER-BOTTOM: #8ecaff 1px solid; TEXT-ALIGN: left; BACKGROUND-COLOR: #eff8ff; PADDING-LEFT: 30px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%; HEIGHT: 1.7em; COLOR: #0042b7; FONT-SIZE: 12px; BORDER-TOP: #8ecaff 1px solid; CURSOR: hand; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.aloneFolder {
+	BACKGROUND-IMAGE: url(/images/home/e.gif); BORDER-BOTTOM: #8ecaff 1px solid; TEXT-ALIGN: left; BACKGROUND-COLOR: #eff8ff; MARGIN: 1px 0px; PADDING-LEFT: 30px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%; HEIGHT: 1.7em; COLOR: #0042b7; FONT-SIZE: 12px; BORDER-TOP: #8ecaff 1px solid; FONT-WEIGHT: bold; PADDING-TOP: 5px
+}
+.submenu {
+	PADDING-LEFT: 0px
+}
+.iefile {
+	BACKGROUND-IMAGE: url(/images/home/d.gif); TEXT-ALIGN: left; PADDING-LEFT: 32px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%; HEIGHT: 23px; COLOR: #0042b7; FONT-SIZE: 12px; PADDING-TOP: 4px
+}
+.iofile {
+	PADDING-LEFT: 10px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: left 50%; HEIGHT: 23px; COLOR: #0042b7; FONT-SIZE: 12px; PADDING-TOP: 4px
+}
+A {
+	COLOR: #0f3e68; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #ff0000
+}
+.ctrlbar {
+	BORDER-BOTTOM: 0px inset; BORDER-LEFT: 0px inset; BORDER-TOP: 0px inset; BORDER-RIGHT: 0px inset
+}
+.explorer {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.ctbutton {
+	BORDER-RIGHT-WIDTH: 0px; BACKGROUND-COLOR: #91d51e; WIDTH: 13px; MARGIN-BOTTOM: 100px; BORDER-TOP-WIDTH: 1px; BORDER-BOTTOM-WIDTH: 1px; HEIGHT: 100px; COLOR: #ffffff; FONT-SIZE: 12px; BORDER-LEFT-WIDTH: 0px; CURSOR: hand
+}
+.button {
+	CLIP: rect(0px 0px 0px 0px); BACKGROUND-IMAGE: url(/Usercenter/images3/bton.gif); BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 86px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; HEIGHT: 25px; COLOR: #ffffff; FONT-SIZE: 14px; BORDER-TOP: 0px; TOP: 0px; CURSOR: hand; BORDER-RIGHT: 0px; PADDING-TOP: 4px; LEFT: 0px
+}
+.buttonc {
+	CLIP: rect(0px 0px 0px 0px); BACKGROUND-IMAGE: url(/images/home/btonc.gif); BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 147px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; HEIGHT: 25px; COLOR: #023bc8; FONT-SIZE: 12px; BORDER-TOP: 0px; TOP: 0px; CURSOR: hand; BORDER-RIGHT: 0px; PADDING-TOP: 2px; LEFT: 0px
+}
+.buttonfb {
+	CLIP: rect(0px 0px 0px 0px); BACKGROUND-IMAGE: url(/Usercenter/images3/btn.gif); BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 70px; PADDING-RIGHT: 0px; BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: center center; HEIGHT: 23px; COLOR: #fd5800; FONT-SIZE: 14px; BORDER-TOP: 0px; TOP: 0px; CURSOR: hand; BORDER-RIGHT: 0px; PADDING-TOP: 4px; LEFT: 0px
+}
+.divline1 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 1px; OVERFLOW: hidden
+}
+.divline2 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 2px; OVERFLOW: hidden
+}
+.divline3 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 3px; OVERFLOW: hidden
+}
+.divline4 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 4px; OVERFLOW: hidden
+}
+.divline5 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 5px; OVERFLOW: hidden
+}
+.divline6 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 6px; OVERFLOW: hidden
+}
+.divline7 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 7px; OVERFLOW: hidden
+}
+.divline8 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 8px; OVERFLOW: hidden
+}
+.divline9 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 9px; OVERFLOW: hidden
+}
+.divline10 {
+	MARGIN: 0px auto; WIDTH: 0px; HEIGHT: 10px; OVERFLOW: hidden
+}
+.line {
+	BORDER-BOTTOM: #dfe0db 1px solid; MARGIN: 0px auto; WIDTH: 700px; HEIGHT: 2px
+}
+.linetab {
+	BORDER-BOTTOM: #dfe0db 1px solid; FONT-SIZE: 14px
+}
+.linetabbody {
+	BORDER-BOTTOM: #dfe0db 1px solid; TEXT-ALIGN: center; FONT-SIZE: 12px
+}
+.linetabhead {
+	BORDER-BOTTOM: #cddeb1 1px solid; TEXT-ALIGN: center; FONT-SIZE: 12px
+}
+.banjihuodong {
+	BORDER-BOTTOM: #cddeb2 1px solid; BORDER-LEFT: #cddeb2 1px solid; BORDER-TOP: #cddeb2 1px solid; BORDER-RIGHT: #cddeb2 1px solid
+}
+.tab {
+	BORDER-BOTTOM: #29a50f 1px solid; MARGIN-TOP: 20px; FONT-SIZE: 12px
+}
+.tab TD {
+	FONT-SIZE: 14px
+}
+.tab14 {
+	
+}
+.tab14 TD {
+	LINE-HEIGHT: 22px; FONT-SIZE: 14px
+}
+.myclass {
+	BACKGROUND-COLOR: #f0f8e3; WIDTH: 519px; ZOOM: 1; MARGIN-LEFT: 13px; CLEAR: both; OVERFLOW: hidden
+}
+.myclass UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.myclass LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.classlist {
+	
+}
+.classlist .tabtit {
+	MARGIN: 0px 8px; BACKGROUND: url(/Usercenter/images3/myclassbg.gif) repeat-x; HEIGHT: 35px
+}
+.classlist .tabtit UL {
+	ZOOM: 1; CLEAR: both; OVERFLOW: hidden
+}
+.classlist .tabtit LI {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 0px; LINE-HEIGHT: 35px; PADDING-LEFT: 2px; WIDTH: 66px; PADDING-RIGHT: 2px; DISPLAY: inline; FLOAT: left; HEIGHT: 35px; COLOR: #033efa; FONT-SIZE: 14px; CURSOR: pointer; PADDING-TOP: 0px
+}
+.classlist .tabtit .hover {
+	TEXT-ALIGN: center; BACKGROUND: url(/Usercenter/images3/hoverbg.gif) no-repeat; COLOR: #ffffff; FONT-WEIGHT: bold
+}
+.classlist .tabtit LI.w1 {
+	WIDTH: 6px; FONT-SIZE: 12px; CURSOR: auto
+}
+.classlist .tabtit LI.pic1 {
+	WIDTH: 12px; BACKGROUND: url(/Usercenter/images3/tabpic1.gif) no-repeat
+}
+.classlist .tabtit LI.pic2 {
+	WIDTH: 13px; BACKGROUND: url(/Usercenter/images3/tabpic2.gif) no-repeat right 50%
+}
+.classlist .tabtit DIV {
+	
+}
+.classlist .atop {
+	BACKGROUND: url(/Usercenter/images3/atop.gif) no-repeat; HEIGHT: 9px; OVERFLOW: hidden
+}
+.classlist .abot {
+	BACKGROUND: url(/Usercenter/images3/abot.gif) no-repeat; HEIGHT: 16px
+}
+.classlist .conts {
+	LINE-HEIGHT: 25px; MARGIN-TOP: 3px
+}
+.classlist I {
+	COLOR: #999999
+}
+.ask {
+	
+}
+.ask UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.ask LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.ask H3 {
+	PADDING-BOTTOM: 10px; MARGIN: 0px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; COLOR: #ff5800; FONT-SIZE: 14px; PADDING-TOP: 10px
+}
+.asklist {
+	BORDER-BOTTOM: #ffd464 1px solid; BORDER-LEFT: #ffd464 1px solid; BORDER-TOP: #ffd464 1px solid; MARGIN-RIGHT: 10px; BORDER-RIGHT: #ffd464 1px solid
+}
+.asklist .tabtit {
+	ZOOM: 1; BACKGROUND: url(/Usercenter/images3/askbg.gif) repeat-x; HEIGHT: 32px; CLEAR: both; OVERFLOW: hidden
+}
+.asklist .tabtit UL {
+	ZOOM: 1; FLOAT: left; OVERFLOW: hidden
+}
+.asklist .tabtit LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 32px; WIDTH: 85px; DISPLAY: inline; BACKGROUND: url(/Usercenter/images3/asklibg.gif) no-repeat; FLOAT: left; HEIGHT: 32px; COLOR: #464646; CURSOR: pointer; FONT-WEIGHT: bold
+}
+.asklist .tabtit .hover {
+	TEXT-ALIGN: center; BACKGROUND: url(/Usercenter/images3/asklihoverbg.gif) no-repeat; COLOR: #ff5601; FONT-WEIGHT: bold
+}
+.asklist .tabtit .asktright {
+	FLOAT: right; PADDING-TOP: 10px
+}
+.asklist .tabtit .asktright .ico {
+	WIDTH: 11px; ZOOM: 1; BACKGROUND: url(/Usercenter/images3/ico.gif) no-repeat; FLOAT: left; HEIGHT: 11px; OVERFLOW: hidden
+}
+.asklist .tabtit .asktright .red {
+	COLOR: #fd0418; FONT-WEIGHT: bold
+}
+.userdiv {
+	TEXT-ALIGN: center; PADDING-BOTTOM: 3px; LINE-HEIGHT: 25px; PADDING-LEFT: 3px; WIDTH: 56px; PADDING-RIGHT: 3px; FLOAT: left; HEIGHT: 60px; PADDING-TOP: 3px
+}
+.userdiv_name {
+	WIDTH: 56px; OVERFLOW: hidden
+}
+.notonline {
+	FILTER: gray
+}
+.c1 {
+	BACKGROUND: url(/Usercenter/images3/tab2.gif)
+}
+.c2 {
+	BACKGROUND: url(/Usercenter/images3/tab22.gif)
+}
+.classroom_head {
+	MARGIN: 8px auto 0px; WIDTH: 520px; BACKGROUND: url(/Usercenter/images3/banjily1.gif) no-repeat; HEIGHT: 7px; OVERFLOW: hidden
+}
+.classroom_mid {
+	MARGIN: 0px auto; WIDTH: 520px; FONT-SIZE: 14px
+}
+.classroom_down {
+	MARGIN: 0px auto; WIDTH: 520px; BACKGROUND: url(/Usercenter/images3/banjily2.gif) no-repeat; HEIGHT: 9px; OVERFLOW: hidden
+}
+.classroom_banjitx {
+	BORDER-LEFT: #cddeb2 1px solid; MARGIN: 0px auto; WIDTH: 520px; BORDER-RIGHT: #cddeb2 1px solid
+}
+.classroom_pic {
+	BORDER-LEFT: #cddeb2 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: url(/Usercenter/images3/dd06.gif) no-repeat right bottom; BORDER-RIGHT: #cddeb2 1px solid; PADDING-TOP: 0px
+}
+.classroom_pic .lt {
+	MARGIN: 0px auto
+}
+.classroom_pic .lt1 {
+	WIDTH: 90px; FLOAT: left
+}
+.classroom_pic .lt2 {
+	WIDTH: 70px; FLOAT: right; COLOR: #646263
+}
+.classroom_pic .lt1 A:link {
+	COLOR: #5b96dc
+}
+.classroom_pic .lt1 A:visited {
+	COLOR: #5b96dc
+}
+.classroom_pic .lt1 A:hover {
+	COLOR: #ff0000
+}
+.classroom_pic .lt4 {
+	COLOR: #404241
+}
+.classroom_pic .lt4 A:link {
+	COLOR: #404241
+}
+.classroom_pic .lt4 A:visited {
+	COLOR: #404241
+}
+.classroom_pic .lt4 A:hover {
+	COLOR: #ff0000
+}
+.classroom_pic_bj {
+	BORDER-LEFT: #cddeb2 1px solid; PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 5px; PADDING-RIGHT: 15px; BACKGROUND: url(/Usercenter/images3/dd06.gif) #ffffff no-repeat right bottom; OVERFLOW: hidden; BORDER-RIGHT: #cddeb2 1px solid; PADDING-TOP: 0px
+}
+.classroom_pic_bj .banji {
+	MARGIN: 15px 0px
+}
+.classroom_pic_bj .banji .lt LI {
+	LIST-STYLE-TYPE: none
+}
+.classroom_pic_bj .banji .lt1 {
+	FONT-SIZE: 12px
+}
+.classroom_pic_bj .banji .lt2 {
+	TEXT-ALIGN: right; FONT-SIZE: 12px
+}
+.classroom_pic_bj .banji .lt3 {
+	COLOR: #b7b7b9; FONT-SIZE: 12px
+}
+.classroom_pic_bj .banji .lt1 A:link {
+	COLOR: #5b96dc
+}
+.classroom_pic_bj .banji .lt1 A:visited {
+	COLOR: #5b96dc
+}
+.classroom_pic_bj .banji .lt1 A:hover {
+	COLOR: #ff0000
+}
+.classroom_pic_bj .banji .lt2 A:link {
+	COLOR: #fc5700
+}
+.classroom_pic_bj .banji .lt2 A:visited {
+	COLOR: #fc5700
+}
+.classroom_pic_bj .banji .lt2 A:hover {
+	COLOR: #ff0000
+}
+.classroom_pic_bj .banji .lt4 A:link {
+	COLOR: #404241; FONT-SIZE: 14px
+}
+.classroom_pic_bj .banji .lt4 A:visited {
+	COLOR: #404241; FONT-SIZE: 14px
+}
+.classroom_pic_bj .banji .lt4 A:hover {
+	COLOR: #fc5700; FONT-SIZE: 14px
+}
+.homemdlink TD {
+	LINE-HEIGHT: 43px
+}
+.homemdlink TD A:link {
+	COLOR: #cf3938; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.homemdlink TD A:visited {
+	COLOR: #cf3938; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.stu A:link {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.stu A:visited {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.stu A:active {
+	TEXT-DECORATION: none
+}
+.stu A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.link12 {
+	COLOR: #5c95dc
+}
+.link12 A:link {
+	COLOR: #5c95dc; TEXT-DECORATION: none
+}
+.link12 A:visited {
+	COLOR: #5c95dc; TEXT-DECORATION: none
+}
+.link12 A:active {
+	TEXT-DECORATION: none
+}
+.link12 A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.paihang {
+	LINE-HEIGHT: 22px; FONT-SIZE: 12px
+}
+.paihang .span {
+	LINE-HEIGHT: 22px; FONT-SIZE: 12px
+}
+.paihang A:link {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.paihang A:visited {
+	COLOR: #474747; TEXT-DECORATION: none
+}
+.paihang A:active {
+	TEXT-DECORATION: none
+}
+.paihang A:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.kong {
+	BACKGROUND-COLOR: #ffffff; MARGIN: 0px auto; HEIGHT: 5px; OVERFLOW: hidden
+}
+.classtop {
+	BORDER-BOTTOM: #ffe6ab 1px dashed; BORDER-LEFT: #ffe6ab 1px dashed; LINE-HEIGHT: 25px; BACKGROUND-COLOR: #fffceb; COLOR: #f8a09f; FONT-SIZE: 12px; BORDER-TOP: #ffe6ab 1px dashed; BORDER-RIGHT: #ffe6ab 1px dashed
+}
+.classtop SPAN {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; COLOR: #49474a; FONT-WEIGHT: bold; PADDING-TOP: 0px
+}
+.tongxue {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 3px; LINE-HEIGHT: 23px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 3px
+}
+.down_pic {
+	PADDING-BOTTOM: 0px; MARGIN: 0px auto; PADDING-LEFT: 20px; PADDING-RIGHT: 20px; BACKGROUND: url(/Usercenter/images3/bgdown.gif) no-repeat right bottom; PADDING-TOP: 0px
+}
+.down_font {
+	MARGIN: 10px 0px
+}
+.down_font TD {
+	COLOR: #666666; FONT-SIZE: 14px
+}
+TEXTAREA {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc 1px solid
+}
+.head {
+	COLOR: #ffffff
+}
+.head A {
+	LINE-HEIGHT: 37px; FONT-SIZE: 14px
+}
+.head A:link {
+	COLOR: #ffffff; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.head A:visited {
+	COLOR: #ffffff; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.head A:active {
+	FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.head A:hover {
+	COLOR: #ffff00; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.jiaoliuqu A {
+	FONT-SIZE: 12px
+}
+.jiaoliuqu A:link {
+	COLOR: #616161; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.jiaoliuqu A:visited {
+	COLOR: #616161; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.jiaoliuqu A:active {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.jiaoliuqu A:hover {
+	COLOR: #fe5600; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.kuaisoo INPUT {
+	BORDER-BOTTOM: 0px; BORDER-LEFT: 0px; BORDER-TOP: 0px; BORDER-RIGHT: 0px
+}
+.kuaisoo .tit {
+	PADDING-BOTTOM: 3px; LINE-HEIGHT: 1.5; PADDING-LEFT: 4px; WIDTH: 150px; PADDING-RIGHT: 0px; COLOR: #a8d199; FONT-SIZE: 12px; PADDING-TOP: 0px
+}
+.kuaisoo .sub {
+	BACKGROUND-IMAGE: url(/Usercenter/images3/sou3.gif); WIDTH: 43px; HEIGHT: 26px; CURSOR: pointer
+}
+.heibanbao {
+	PADDING-LEFT: 24px; COLOR: #cd3939; FONT-WEIGHT: bold
+}
+.leftmenu {
+	PADDING-BOTTOM: 3px; PADDING-RIGHT: 8px
+}
+.tiku {
+	BORDER-BOTTOM: #cddeb1 1px solid; BORDER-RIGHT: #cddeb1 1px solid
+}
+.tiku TD {
+	BORDER-LEFT: #cddeb1 1px solid; LINE-HEIGHT: 30px; FONT-SIZE: 14px; BORDER-TOP: #cddeb1 1px solid
+}
+.tiku .head {
+	BACKGROUND-COLOR: #fffaea; COLOR: #cf3535; FONT-WEIGHT: bold
+}
+.tiku A {
+	FONT-SIZE: 14px
+}
+.tiku A:link {
+	COLOR: #ff0000; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.tiku A:visited {
+	COLOR: #ff0000; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.tiku A:active {
+	FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.tiku A:hover {
+	COLOR: #0000ff; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.tikumorehead TD {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 4px; LINE-HEIGHT: 30px; COLOR: #cf3535; FONT-SIZE: 14px; BORDER-TOP: medium none; FONT-WEIGHT: bold; BORDER-RIGHT: medium none
+}
+.tikumore {
+	BORDER-BOTTOM: #cddeb1 1px solid; BORDER-RIGHT: #cddeb1 1px solid
+}
+.tikumore TD {
+	BORDER-LEFT: #cddeb1 1px solid; LINE-HEIGHT: 30px; FONT-SIZE: 14px; BORDER-TOP: #cddeb1 1px solid
+}
+.tikumore .juli {
+	PADDING-LEFT: 10px
+}
+.tikumore .head2 {
+	TEXT-ALIGN: right; PADDING-BOTTOM: 4px; BACKGROUND-COLOR: #fffaea; PADDING-RIGHT: 10px; HEIGHT: 30px; COLOR: #000; FONT-SIZE: 12px
+}
+.tikumore .head3 {
+	COLOR: #000; FONT-SIZE: 12px; FONT-WEIGHT: bold
+}
+.tikumore A {
+	FONT-SIZE: 14px
+}
+.tikumore A:link {
+	COLOR: #ff0000; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.tikumore A:visited {
+	COLOR: #ff0000; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.tikumore A:active {
+	FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.tikumore A:hover {
+	COLOR: #0000ff; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.tikumore .head2 A {
+	FONT-SIZE: 12px
+}
+.tikumore .head2 A:link {
+	COLOR: #cf3639; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.tikumore .head2 A:visited {
+	COLOR: #cf3639; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.tikumore .head2 A:active {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.tikumore .head2 A:hover {
+	COLOR: #0000ff; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.headlink A {
+	FONT-SIZE: 12px
+}
+.headlink A:link {
+	COLOR: #525252; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.headlink A:visited {
+	COLOR: #525252; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.headlink A:active {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.headlink A:hover {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.coufontlink A {
+	FONT-SIZE: 12px
+}
+.coufontlink A:link {
+	COLOR: #5c94de; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.coufontlink A:visited {
+	COLOR: #5c94de; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.coufontlink A:active {
+	FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.coufontlink A:hover {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.banjidt A {
+	FONT-SIZE: 12px
+}
+.banjidt A:link {
+	COLOR: #5b94db; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.banjidt A:visited {
+	COLOR: #5b94db; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.banjidt A:active {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.banjidt A:hover {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.kjgxcourse A {
+	FONT-SIZE: 12px
+}
+.kjgxcourse A:link {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.kjgxcourse A:visited {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.kjgxcourse A:active {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.kjgxcourse A:hover {
+	COLOR: #ff0000; FONT-SIZE: 12px; TEXT-DECORATION: underline
+}
+.leftlink A {
+	FONT-SIZE: 14px
+}
+.leftlink A:link {
+	COLOR: #5d5b5e; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.leftlink A:visited {
+	COLOR: #5d5b5e; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.leftlink A:active {
+	FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.leftlink A:hover {
+	COLOR: #ff0000; FONT-SIZE: 14px; TEXT-DECORATION: none
+}
+.leftlinkmore A {
+	FONT-SIZE: 13px
+}
+.leftlinkmore A:link {
+	COLOR: #298901; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.leftlinkmore A:visited {
+	COLOR: #298901; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.leftlinkmore A:active {
+	FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.leftlinkmore A:hover {
+	COLOR: #ff0000; FONT-SIZE: 13px; TEXT-DECORATION: none
+}
+.leftbgline {
+	BORDER-LEFT: #eaf6de 3px solid; BORDER-RIGHT: #eaf6de 3px solid
+}
+.colorleft {
+	COLOR: #5c5c5c
+}
+.fontcolor1 {
+	COLOR: #278b05
+}
+.fontcolor2 {
+	COLOR: #247403
+}
+.backcolor1 {
+	BACKGROUND-COLOR: #eaf6de
+}
+.backcolor2 {
+	BACKGROUND-COLOR: #eaf6de
+}
+.backcolor3 {
+	BACKGROUND-COLOR: #dff2c5
+}
+.backcolor4 {
+	BACKGROUND-COLOR: #eaf6de
+}
+.backcolor5 {
+	BACKGROUND-COLOR: #f0f8e3
+}
+.backcolor6 {
+	BACKGROUND-COLOR: #f5fbef
+}
+.backcolor7 {
+	BACKGROUND-COLOR: #d8e6c3
+}
+.backcolor8 {
+	BACKGROUND-COLOR: #fcfdf8
+}
